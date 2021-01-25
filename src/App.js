@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter,
+  Route,
+  Link
+} from "react-browser-router";
+import Album from "./components/Album";
+import Discography from "./components/Discography";
+import NewestRelease from "./components/NewestRelease";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      artist: '',
+      album: ''
+    }
+  }
+
+  render() {
+    return (
+      <BrowserRouter>
+        <div className="App">
+          <h1>Hello all!</h1>
+          <NewestRelease />
+          <Route path="/" component={NewestRelease} />
+          <Route path="/discography" component={Discography} />
+          <Route path="/album" component={Album} />
+        </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
