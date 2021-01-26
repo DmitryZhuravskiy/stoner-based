@@ -1,0 +1,934 @@
+[
+  {
+    "id": 0,
+    "title": "Bipolar",
+    "bandName": "Void Droid",
+    "image": "./images/void-droid--bipolar.jpg",
+    "year": 2020,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Super Ego Villain",
+        "duration": "04:56"
+      },
+      {
+        "id": "02",
+        "trackName": "Zarathustra",
+        "duration": "05:59 "
+      },
+      {
+        "id": "03",
+        "trackName": "Milkaholic",
+        "duration": "06:27 "
+      },
+      {
+        "id": "04",
+        "trackName": "Somen Mask",
+        "duration": "06:06 "
+      },
+      {
+        "id": "05",
+        "trackName": "The Mars March",
+        "duration": "03:47"
+      },
+      {
+        "id": "06",
+        "trackName": "The Venus Effect",
+        "duration": "06:19"
+      },
+      {
+        "id": "07",
+        "trackName": "Clockface",
+        "duration": "04:31"
+      },
+      {
+        "id": "08",
+        "trackName": "Bipolar",
+        "duration": "02:34"
+      },
+      {
+        "id": "09",
+        "trackName": "Puer Blue",
+        "duration": "09:06 "
+      }
+    ],
+    "artists": [
+      {
+        "name": "AK",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "Bill Herra",
+        "role": "guitar"
+      },
+      {
+        "name": "Aggelos Ulmo",
+        "role": "bass"
+      },
+      {
+        "name": "Haris",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "dave ross",
+        "text": "Great sonics great vocals sometimes harsh mostly clean. My initial feeling was Corey Taylor ditching Slipknot to join the Palm Desert scene "
+      },
+      {
+        "author": "051R158",
+        "text": "Thanks for this Album. It had to grow on me. I Love it.eh Milkaholic seriously ? Is about drinking Milk !? i dont know if this is something to sing about. maybe you could explain it to me. "
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Terrestrial",
+    "bandName": "Void Droid",
+    "image": "./images/void-droid--terrestrial.jpg",
+    "year": 2016,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Terrestrial",
+        "duration": "00:22"
+      },
+      {
+        "id": "02",
+        "trackName": "Flying Jesus",
+        "duration": "04:36"
+      },
+      {
+        "id": "03",
+        "trackName": "Praying Mantis",
+        "duration": "04:36"
+      },
+      {
+        "id": "04",
+        "trackName": "The Watermaker",
+        "duration": "07:19"
+      },
+      {
+        "id": "05",
+        "trackName": "Chameleon White",
+        "duration": "08:14"
+      },
+      {
+        "id": "06",
+        "trackName": "Kua Fu",
+        "duration": "06:06"
+      },
+      {
+        "id": "07",
+        "trackName": "Jack In The Box",
+        "duration": "08:11"
+      },
+      {
+        "id": "08",
+        "trackName": "Martian Architect",
+        "duration": "06:33"
+      },
+      {
+        "id": "09",
+        "trackName": "Mokujin",
+        "duration": "04:22"
+      },
+      {
+        "id": "10",
+        "trackName": "Stray Dog Rolly",
+        "duration": "06:28"
+      }
+    ],
+    "artists": [
+      {
+        "name": "AK",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "Bill Herra",
+        "role": "guitar"
+      },
+      {
+        "name": "Aggelos Ulmo",
+        "role": "bass"
+      },
+      {
+        "name": "Haris",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Harry Harrison",
+        "text": "Well it looks like the second outing from Void Droid has given us a unanimous decision on their genre of choice……………Stoner Groove Metal it is. They remind me of an angrier version of their countrymen, ‘Planet of Zeus’ or a sped-up version of ‘Soundcrawler’. Whatever the comparisons, it sounds good. Not the music you take home to Mum though. Favorite track: Martian Architect. "
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Void Droid",
+    "bandName": "Void Droid",
+    "image": "./images/void-droid--void-droid.jpg",
+    "year": 2013,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": " Mokujin",
+        "duration": "04:30"
+      },
+      {
+        "id": "02",
+        "trackName": "Praying Mantis",
+        "duration": "04:57"
+      },
+      {
+        "id": "03",
+        "trackName": " Little Droid's Blues",
+        "duration": "04:44"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Antreas K.",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "Bill T.",
+        "role": "guitar"
+      },
+      {
+        "name": "Aggelos A.",
+        "role": "bass"
+      },
+      {
+        "name": "Haris A.",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Harry Harrison",
+        "text": "One part Stoner Groove Metal! One part Stoner Metal Grunge! One part Stoner……err……Ballard? The upside is that it’s 3 parts awesome and that’s 100% goodness. As Void Droid’s first outing, it feels like a band finding their way in their sonic journey. It doesn’t really matter which way they go, they’re equally talented in all those genres. No pigeonholing at the moment. Let's see were they go with this. Favorite track: Praying Mantis."
+      },
+      {
+        "author": "Soshanna ♥",
+        "text": "Two tracks of heavy hitting stoner metal, and one track, the last song is a haunting, stunningly beautiful vocal & guitar arrangement that leaves me breathless and goosebumps all over. What a voice this guy has! Bravo! Favorite track: Little Droid's Blues."
+      },
+      {
+        "author": "Morts",
+        "text": "Riff-o-rama!! While it's possible for someone to think this may be just another stoner/groove metal release, by really giving this a listen you realise how bloody great the delivery is, how full of feeling and enthusiasm! Belying the band's name, this music is anything but empty or robotic. Check it out and enjoy! Favorite track: Praying Mantis. "
+      },
+      {
+        "author": "FDJ",
+        "text": "Hard hitting retro-rock from Greece with some nice riffs and a good vocal. Greece is really turning out some good stoner bands of late! Favorite track: Praying Mantis."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Modern Panic",
+    "bandName": "Deaf Radio",
+    "image": "./images/deaf-radio--modern-panic.jpg",
+    "year": 2019,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Intro",
+        "duration": "01:05"
+      },
+      {
+        "id": "02",
+        "trackName": "Death Club",
+        "duration": "03:36"
+      },
+      {
+        "id": "03",
+        "trackName": "Animals",
+        "duration": "05:43"
+      },
+      {
+        "id": "04",
+        "trackName": "Dance Like a Reptile",
+        "duration": "04:11"
+      },
+      {
+        "id": "05",
+        "trackName": "Astypalea",
+        "duration": "05:25"
+      },
+      {
+        "id": "06",
+        "trackName": "Modern Panic",
+        "duration": "05:39"
+      },
+      {
+        "id": "07",
+        "trackName": "Colours",
+        "duration": "04:44"
+      },
+      {
+        "id": "08",
+        "trackName": "Fossils",
+        "duration": "06:31"
+      },
+      {
+        "id": "09",
+        "trackName": "Gas Station People",
+        "duration": "05:22"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Panos Gklinos",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "Dimitris Sakellariou",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "George Diathesopoulos",
+        "role": "bass"
+      },
+      {
+        "name": "Dimitris Georgopoulos",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "I'm joining a cult.",
+        "text": "Like QotSA, but with lamb meat gyros. Favorite track: Modern Panic."
+      },
+      {
+        "author": "tyler97 ",
+        "text": "Excellent Album! Please don't change your style, I love the hard hitting and catchy songs. Favorite track: Dance Like a Reptile."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Alarm",
+    "bandName": "Deaf Radio",
+    "image": "./images/deaf-radio--alarm.jpg",
+    "year": 2017,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Aggravation",
+        "duration": "03:25"
+      },
+      {
+        "id": "02",
+        "trackName": "Backseats",
+        "duration": "05:06"
+      },
+      {
+        "id": "03",
+        "trackName": "Vultures & Killers",
+        "duration": "04:11"
+      },
+      {
+        "id": "04",
+        "trackName": "Anytime",
+        "duration": "05:03"
+      },
+      {
+        "id": "05",
+        "trackName": "Flowerhead",
+        "duration": "04:32"
+      },
+      {
+        "id": "06",
+        "trackName": "Revolving Doors",
+        "duration": "04:32"
+      },
+      {
+        "id": "07",
+        "trackName": "Trapped",
+        "duration": "03:01"
+      },
+      {
+        "id": "08",
+        "trackName": "Oceanic Feeling",
+        "duration": "04:23"
+      },
+      {
+        "id": "09",
+        "trackName": "...And We Just Pressed The Alarm Button",
+        "duration": "06:05"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Panos Gklinos",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "Dimitris Sakellariou",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "George Diathesopoulos",
+        "role": "bass"
+      },
+      {
+        "name": "Dimitris Georgopoulos",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "nick_ark",
+        "text": "Just love it! Favorite track: Backseats."
+      },
+      {
+        "author": "ntokanion",
+        "text": "What can I say... This is very underrated. They deserve worldwide status :) Favorite track: Revolving Doors."
+      },
+      {
+        "author": "Old Man Doom",
+        "text": " Happened upon these fellers on my feed and found myself mesmerized by the riffs. This is one excellent album for the drive to the hunting cabin, the sweat lodge, or your favorite bootleggers hideaway. Favorite track: Backseats. "
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Reworked | Live at Mellowsophy",
+    "bandName": "Deaf Radio",
+    "image": "./images/deaf-radio--reworked.jpg",
+    "year": 2020,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Colours (Live Rework)",
+        "duration": "04:23"
+      },
+      {
+        "id": "02",
+        "trackName": "Astypalea (Live Rework)",
+        "duration": "04:00"
+      },
+      {
+        "id": "03",
+        "trackName": "Backseats (Live Rework)",
+        "duration": "04:51"
+      },
+      {
+        "id": "04",
+        "trackName": "Modern Panic (Live Rework)",
+        "duration": "04:58"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Panos Gklinos",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "Dimitris Sakellariou",
+        "role": "vocal, guitar"
+      },
+      {
+        "name": "George Diathesopoulos",
+        "role": "bass"
+      },
+      {
+        "name": "Dimitris Georgopoulos",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "zombiejoe",
+        "text": "Although not as good as the original versions, it's fun to hear such a different and quiet take! Thank you for releasing this! Favorite track: Modern Panic (Live Rework). "
+      },
+      {
+        "author": "Icewurm",
+        "text": "Broke out their acoustic lounge vibe on this one and it works Favorite track: Modern Panic (Live Rework)"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Can You Dig Europe 2020",
+    "bandName": "The Neptune Power Federation",
+    "image": "./images/thpf--can-you-dig.jpg",
+    "year": 2020,
+    "country": "Australia",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Kill The King",
+        "duration": "04:29"
+      },
+      {
+        "id": "02",
+        "trackName": "Long Live Rock 'n' Roll",
+        "duration": "03:36 "
+      },
+      {
+        "id": "03",
+        "trackName": "Son and Daughter",
+        "duration": "04:03"
+      },
+      {
+        "id": "04",
+        "trackName": "Tie Your Mother down",
+        "duration": "03:51 "
+      }
+    ],
+    "artists": [
+      {
+        "name": "Lauren Whalley",
+        "role": "vocal"
+      },
+      {
+        "name": "Mike Foxall",
+        "role": "guitar"
+      },
+      {
+        "name": "Troy Vod",
+        "role": "guitar"
+      },
+      {
+        "name": "Jason Whalley",
+        "role": "bass"
+      },
+      {
+        "name": "Dean Bakota",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Mike Williams",
+        "text": "Four amazing covers. The Neptune Power Federation, if the creative well ever runs dry and they’re looking for an idea for a new album, they’d surely make a KILLER 70s hard rock cover band and could produce an album’s worth of amazing Deep Purple, Budgie, Cactus, Sir Lord Baltimore, Blue Cheer, Bang, etc. cover tunes. This is one of the best releases of 2020, and it’s only a double 7”. Favorite track: Kill The King."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Memoirs Of A Rat Queen",
+    "bandName": "The Neptune Power Federation",
+    "image": "./images/thpf--memoirs.jpg",
+    "year": 2019,
+    "country": "Australia",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Can You Dig?",
+        "duration": "02:47"
+      },
+      {
+        "id": "02",
+        "trackName": "Watch Our Masters Bleed",
+        "duration": "05:43"
+      },
+      {
+        "id": "03",
+        "trackName": "Flying Incendiary Club For Subjugating Demons",
+        "duration": "04:48"
+      },
+      {
+        "id": "04",
+        "trackName": "Rat Queen",
+        "duration": "05:56"
+      },
+      {
+        "id": "05",
+        "trackName": "Bound For Hell",
+        "duration": "03:36"
+      },
+      {
+        "id": "06",
+        "trackName": "I'll Make A Man Out Of You",
+        "duration": "04:46"
+      },
+      {
+        "id": "07",
+        "trackName": "Pagan Inclinations",
+        "duration": "04:37"
+      },
+      {
+        "id": "08",
+        "trackName": "The Reaper Comes For Thee",
+        "duration": "05:43"
+      },
+      {
+        "id": "09",
+        "trackName": "Killed By Death (Bonus track)",
+        "duration": "04:44"
+      },
+      {
+        "id": "10",
+        "trackName": "I'll Be Your Sister (Bonus track)",
+        "duration": "02:48"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Lauren Whalley",
+        "role": "vocal"
+      },
+      {
+        "name": "Mike Foxall",
+        "role": "guitar"
+      },
+      {
+        "name": "Troy Vod",
+        "role": "guitar"
+      },
+      {
+        "name": "Jason Whalley",
+        "role": "bass"
+      },
+      {
+        "name": "Dean Bakota",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "schmoerfer",
+        "text": "Thanks for the great Gig at Hell over Hammaburg '19!"
+      },
+      {
+        "author": "Mot",
+        "text": "What a great album! Lovin it"
+      },
+      {
+        "author": "Jacqueline Hyde",
+        "text": "I like to imagine this song is dedicated to G. Pell. He can definitely Go to Hell. Favorite track: Bound For Hell."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Neath A Shin Ei Sun ",
+    "bandName": "The Neptune Power Federation",
+    "image": "./images/thpf--neath-a-shin.jpg",
+    "year": 2017,
+    "country": "Australia",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Neath A Shin Ei Sun",
+        "duration": "05:32"
+      },
+      {
+        "id": "02",
+        "trackName": "Edmunde",
+        "duration": "05:00"
+      },
+      {
+        "id": "03",
+        "trackName": "Opium Den",
+        "duration": "03:49"
+      },
+      {
+        "id": "04",
+        "trackName": "Electric Fairies",
+        "duration": "05:11 "
+      },
+      {
+        "id": "05",
+        "trackName": "Burning",
+        "duration": "03:07 "
+      },
+      {
+        "id": "06",
+        "trackName": "Sup Thy Potion",
+        "duration": "02:45"
+      },
+      {
+        "id": "07",
+        "trackName": "Way Of The Wizard",
+        "duration": "03:18"
+      },
+      {
+        "id": "08",
+        "trackName": "We Shall Triumph",
+        "duration": "10:09"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Lauren Whalley",
+        "role": "vocal"
+      },
+      {
+        "name": "Mike Foxall",
+        "role": "guitar"
+      },
+      {
+        "name": "Troy Vod",
+        "role": "guitar"
+      },
+      {
+        "name": "Jason Whalley",
+        "role": "bass"
+      },
+      {
+        "name": "Dean Bakota",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Charlie Hodgson",
+        "text": "That's the way of the wizard mutha fucka...., this album will pleasure your hearing holes for the whole duration of the album releasing lots of dopamine and leaving you in a state of fuzzy ecstasy. Favorite track: Way Of The Wizard."
+      },
+      {
+        "author": "sleeptalker",
+        "text": "Why it took so long for me to buy this album is beyond me. Strongly recommended. Favorite track: Sup Thy Potion."
+      },
+      {
+        "author": "Mike Williams",
+        "text": "Picked this album up a second time to get the gatefold edition. This is one of the best bands going today. Balls out in your face cosmic fuzz rock. Favorite track: Opium Den."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Lucifer's Universe",
+    "bandName": "The Neptune Power Federation",
+    "image": "./images/thpf--lucifer's-universe.jpg",
+    "year": 2015,
+    "country": "Australia",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Begone Sorcerer",
+        "duration": "04:04"
+      },
+      {
+        "id": "02",
+        "trackName": "Witch's Bitch",
+        "duration": "04:21"
+      },
+      {
+        "id": "03",
+        "trackName": "Thirst For Blood",
+        "duration": "03:21"
+      },
+      {
+        "id": "04",
+        "trackName": "A Sound Of Thunder",
+        "duration": "03:12"
+      },
+      {
+        "id": "05",
+        "trackName": "Mind Voyager (Suites 1, 2 & 3)",
+        "duration": "07:01"
+      },
+      {
+        "id": "06",
+        "trackName": "Invisible Pill",
+        "duration": "03:59"
+      },
+      {
+        "id": "07",
+        "trackName": "Lucifer's Universe",
+        "duration": "02:13"
+      },
+      {
+        "id": "08",
+        "trackName": "The Man From Tomorrow",
+        "duration": "03:33"
+      },
+      {
+        "id": "09",
+        "trackName": "Hellfire Boogie",
+        "duration": "02:45"
+      },
+      {
+        "id": "10",
+        "trackName": "Mothership",
+        "duration": "05:15 "
+      }
+    ],
+    "artists": [
+      {
+        "name": "Lauren Whalley",
+        "role": "vocal"
+      },
+      {
+        "name": "Mike Foxall",
+        "role": "guitar"
+      },
+      {
+        "name": "Troy Vod",
+        "role": "guitar"
+      },
+      {
+        "name": "Jason Whalley",
+        "role": "bass"
+      },
+      {
+        "name": "Dean Bakota",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "mAnarchist",
+        "text": "TNPF struck gold/platinum/jewels when they added Loz on vocals. Total killer album!"
+      },
+      {
+        "author": "hackiausbruch",
+        "text": " This is THE BAND! Favorite track: The Man From Tomorrow."
+      },
+      {
+        "author": "Mike Williams",
+        "text": "This band has risen to become one of my top five favorite groups active today, along with Monster Magnet, Clutch, The Atomic Bitchwax, and Iron Maiden, heady company. The debut was good, but adding High Priestess Screaming Loz Sutch as vocalist brought this group to a whole new level. Favorite track: Mothership."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Mano A Satano ",
+    "bandName": "The Neptune Power Federation",
+    "image": "./images/thpf--mano-a-satano.jpg",
+    "year": 2012,
+    "country": "Australia",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Mano A Satano (free)",
+        "duration": "02:06"
+      },
+      {
+        "id": "02",
+        "trackName": "Wizard Lovin'",
+        "duration": "02:40"
+      },
+      {
+        "id": "03",
+        "trackName": "Skies Of Sound",
+        "duration": "04:45"
+      },
+      {
+        "id": "04",
+        "trackName": "Curses",
+        "duration": "03:27"
+      },
+      {
+        "id": "05",
+        "trackName": "Be It Demon?",
+        "duration": "04:16"
+      },
+      {
+        "id": "06",
+        "trackName": "The Devil's Rainbow",
+        "duration": "02:37"
+      },
+      {
+        "id": "07",
+        "trackName": "Boil The Oil",
+        "duration": "02:52"
+      },
+      {
+        "id": "08",
+        "trackName": "The Fuzz",
+        "duration": "03:30"
+      },
+      {
+        "id": "09",
+        "trackName": "Shazam! In The Van",
+        "duration": "03:10"
+      },
+      {
+        "id": "10",
+        "trackName": "Metal Health [Bang Your Head] (free)",
+        "duration": "05:09"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Lauren Whalley",
+        "role": "vocal"
+      },
+      {
+        "name": "Mike Foxall",
+        "role": "guitar"
+      },
+      {
+        "name": "Troy Vod",
+        "role": "guitar"
+      },
+      {
+        "name": "Jason Whalley",
+        "role": "bass"
+      },
+      {
+        "name": "Dean Bakota",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Mike Williams",
+        "text": "A tremendous debut from Satan's house band, prior to the arrival of the Imperial Priestess Screamin' Loz Sutch. Some killer material still though, check out the title cut, The Fuzz, Boil the Oil, Shazam! In the Van, and Wizard Lovin'. They give a snapshot of future efforts with a new singer. Favorite track: The Fuzz."
+      },
+      {
+        "author": "drokter awesome",
+        "text": "Music, come back to Germany soon, Cologne would be great !! Favorite track: Skies Of Sound."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Flying Incendiary Club / I Put A Spell On You",
+    "bandName": "The Neptune Power Federation",
+    "image": "./images/thpf--flying-incendiary-club.jpg",
+    "year": 2019,
+    "country": "Australia",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "I Put A Spell On You",
+        "duration": "04:04"
+      },
+      {
+        "id": "02",
+        "trackName": "Flying Incendiary Club For Subjugating Demons",
+        "duration": "04:48"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Lauren Whalley",
+        "role": "vocal"
+      },
+      {
+        "name": "Mike Foxall",
+        "role": "guitar"
+      },
+      {
+        "name": "Troy Vod",
+        "role": "guitar"
+      },
+      {
+        "name": "Jason Whalley",
+        "role": "bass"
+      },
+      {
+        "name": "Dean Bakota",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Mike Williams",
+        "text": "Grab this to pick up the rare bonus track, a balls out cover of I Put a Spell On You. Favorite track: I Put A Spell On You."
+      }
+    ]
+  }
+]
