@@ -1,21 +1,24 @@
 import React from "react";
-import based from "./../base.json"
+import based from "./../base.json";
+import {
+  Link
+} from "react-browser-router";
 
 class Album extends React.Component {
   render () {
-    const base = based.filter( x => (x.bandName===this.state.bandName)).filter(x => (x.title===this.state.album));
+    const base = based.filter( x => (x.bandName===this.props.bandName)).filter(x => (x.title===this.props.album));
     const { title, bandName, image, year, country, tracklist, artists, reviews } = base;
     return (
       <div className="album">
         <h2>{title}</h2>
-        <p><Link to="/discography" onClick={getDiscography(bandName)}>{bandName}</Link></p>
-        <img src={image} />
+        <p><Link to="/discography" onClick={this.props.getDiscography(bandName)}>{bandName}</Link></p>
+        <img src={image} alt={album.title} />
         <p>{year}</p>
         <p>{country}</p>
         <p>Tracklist</p>
         <ul>
           {tracklist.map( track => (
-            <li>
+            <li key={track.id}>
               {track.id} - {track.trackName} - {track.duration}
             </li>)
           )}
@@ -23,7 +26,7 @@ class Album extends React.Component {
         <p>Artists</p>
         <ul>
           {artists.map( artist => (
-            <li>
+            <li key={artist.name}>
               {artist.name} - {artist.role}
             </li>)
           )}
@@ -31,7 +34,7 @@ class Album extends React.Component {
         <p>Reviews</p>
         <ul>
           {reviews.map( review => (
-            <li>
+            <li key={review.author}>
               <h4>{review.author}</h4>
               <p>{review.text}</p>
             </li>)

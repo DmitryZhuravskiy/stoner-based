@@ -1,8 +1,6 @@
 import React from "react";
 import base from './../base.json';
 import {
-  BrowserRouter,
-  Route,
   Link
 } from "react-browser-router";
 
@@ -13,10 +11,10 @@ class NewestRelease extends React.Component {
         <ul>
           {
             base.map( album => (
-              <li>
+              <li key={album.title}>
                 <img src={album.image} />
-                <p><Link to="/discography" onClick={getDiscography(album.bandName)}>{album.bandName}</Link></p>
-                <p><Link to="/album" onClick={getAlbum(album.bandName, album.title)}>{album.title}</Link></p>
+                <p><Link to="/discography" onClick={this.props.getDiscography(album.bandName)}>{album.bandName}</Link></p>
+                <p><Link to="/album" onClick={this.props.getAlbum(album.bandName, album.title)}>{album.title}</Link></p>
                 <p>{album.year}</p>
               </li>
             ))
