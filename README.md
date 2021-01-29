@@ -1,2 +1,2 @@
 # stoner-based
-Website library of musical groups in the genre of stoner. Albums, discography, artists
+Website library of musical groups in the genre of stoner. Albums, discography, artists.
