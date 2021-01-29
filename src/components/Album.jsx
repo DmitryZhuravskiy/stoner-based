@@ -4,15 +4,14 @@ import {
   Link
 } from "react-browser-router";
 
-class Album extends React.Component {
-  render () {
-    const base = based.filter( x => (x.bandName===this.props.bandName)).filter(x => (x.title===this.props.album));
+const Album = (props) => {
+    const base = based.filter( x => (x.bandName===props.bandName)).filter(x => (x.title===props.album));
     const { title, bandName, image, year, country, tracklist, artists, reviews } = base;
     return (
       <div className="album">
         <h2>{title}</h2>
-        <p><Link to="/discography" onClick={this.props.getDiscography(bandName)}>{bandName}</Link></p>
-        <img src={image} alt={album.title} />
+        <p><Link to="/discography" onClick={props.getDiscography(bandName)}>{bandName}</Link></p>
+        <img src={image} alt={title} />
         <p>{year}</p>
         <p>{country}</p>
         <p>Tracklist</p>
@@ -42,7 +41,6 @@ class Album extends React.Component {
         </ul>
       </div>
     )
-  }
 }
-
+ 
 export default Album;
