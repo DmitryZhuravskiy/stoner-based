@@ -1,5 +1,8 @@
 import React from 'react';
 import base from './../base.json';
+import {
+    Link
+  } from "react-browser-router";
 
 const NewestRelease = ({ getDiscography, getAlbum }) =>
 (
