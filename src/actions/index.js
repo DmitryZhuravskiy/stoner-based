@@ -8,7 +8,6 @@ export const getDiscography = (bandName) => {
 
 export const getAlbum = (bandName, title) => {
     return {
-
         type: "GET_ALBUM",
         bandName: bandName,
         title: title
