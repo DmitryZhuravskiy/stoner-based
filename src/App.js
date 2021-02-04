@@ -1,50 +1,41 @@
 import './App.css';
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import {
   Route,
-  Switch
-} from "react-browser-router";
-import Album from "./components/Album";
-import Discography from "./components/Discography";
-import NewestRelease from "./components/NewestRelease";
-import { getAlbum, getDiscography } from './actions'
+  Switch,
+  Link
+} from "react-router-dom";
+import AlbumContainer from "./containers/AlbumContainer";
+import DiscographyContainer from "./containers/DiscographyContainer";
+import NewestReleaseContainer from "./containers/NewestReleaseContainer";
 
-/*App component starts here */
 class App extends Component {
-
-  constructor(props) {
-    super(props);
-    this.getAlbum = this.getAlbum.bind(this);
-    this.getDiscography = this.getDiscography.bind(this);
-  }
-
   render() {
     return (
-      <div className="container">
-        <h1>Hello all!</h1>
+      <div className="app-container">
+        <h1 className="title-message">Stoner Base</h1>
+        <div className="navigation">
+          <ul>
+            <li>
+              <Link to="/discography">Дискография Void Droid</Link>
+            </li>
+            <li>
+              <Link to="/album">Альбом Void Droid - Bipolar</Link>
+            </li>
+            <li>
+              <Link to="/">Все, что есть</Link>
+            </li>
+          </ul>
+        </div>
         <Switch>
-          <Route exact path="/" render={() => <NewestRelease getDiscography={this.getDiscography} getAlbum={this.getAlbum} album={this.album} bandName={this.bandName} />} />
-          <Route path="/album" render={() => <Album getDiscography={this.getDiscography} album={this.album} bandName={this.bandName} />} />
-          <Route path="/discography" render={() => <Discography getAlbum={this.getAlbum} album={this.album} bandName={this.bandName} />} />
+          <Route exact path="/" component={NewestReleaseContainer} />
+          <Route path="/album" component={AlbumContainer} />
+          <Route path="/discography" component={DiscographyContainer} />
         </Switch>
+        <div className="footer" />
       </div>
     );
   }
 }
 
-const mapStateToProps = (store) => {
-  return {
-    album: store.album,
-    bandName: store.bandName
-  }
-}
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    getAlbum: (bandName, album) => dispatch(getAlbum(bandName, album)),
-    getDiscography: (bandName) => dispatch(getDiscography(bandName))
-  }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;
