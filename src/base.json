@@ -930,5 +930,793 @@
         "text": "Grab this to pick up the rare bonus track, a balls out cover of I Put a Spell On You. Favorite track: I Put A Spell On You."
       }
     ]
+  },
+  {
+    "id": 12,
+    "title": "Liquid Sleep",
+    "bandName": "1000mods",
+    "image": "./images/1000--liquid-sleep.jpg",
+    "year": 2009,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Burnt Sleep",
+        "duration": "06:16"
+      },
+      {
+        "id": "02",
+        "trackName": "Liquid Sleep",
+        "duration": "05:54"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Dani G.",
+        "role": "vocal and bass"
+      },
+      {
+        "name": "Giannis S.",
+        "role": "guitar"
+      },
+      {
+        "name": "Giorgos T.",
+        "role": "guitar"
+      },
+      {
+        "name": "Labros G.",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "youtrippin",
+        "text": "Burnt? Liquid? I love them both! Favorite track: Burnt Sleep."
+      },
+      {
+        "author": "BaZaz",
+        "text": "Liquid Sleep is one of the best stoner songs on the planet! Favorite track: Liquid Sleep."
+      },
+      {
+        "author": "zzzptm",
+        "text": "1000mods ought to be in your collection, as well. Favorite track: Burnt Sleep."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Valley of Sand",
+    "bandName": "1000mods",
+    "image": "./images/1000--valley-of-sand.jpg",
+    "year": 2012,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Valley of Sand",
+        "duration": "17:15"
+      },
+      {
+        "id": "02",
+        "trackName": "7 Flies (live)",
+        "duration": "05:14"
+      },
+      {
+        "id": "03",
+        "trackName": "Navy in Alice (live)",
+        "duration": "05:25"
+      },
+      {
+        "id": "04",
+        "trackName": "Track me (live)",
+        "duration": " 07:14"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Dani G.",
+        "role": "vocal and bass"
+      },
+      {
+        "name": "Giannis S.",
+        "role": "guitar"
+      },
+      {
+        "name": "Giorgos T.",
+        "role": "guitar"
+      },
+      {
+        "name": "Labros G.",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "youtrippin",
+        "text": "Dani, what the fuck are you saying? Favorite track: Valley of Sand."
+      },
+      {
+        "author": "Charon66",
+        "text": "Very rare, very early recording, before the fame, still with a high potential"
+      },
+      {
+        "author": "SOUNY",
+        "text": "làààààà, on est bien lààààà....c'est planant... mmmmmhhhh c'est tripant, c'est coooool... aahhhhhh, ouiiiiiiii oh yeahhhhh Favorite track: Valley of Sand."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Super Van Vacation",
+    "bandName": "1000mods",
+    "image": "./images/1000--super-van-vacation.jpg",
+    "year": 2011,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Road to Burn",
+        "duration": "08:49"
+      },
+      {
+        "id": "02",
+        "trackName": "7 Flies",
+        "duration": "04:49"
+      },
+      {
+        "id": "03",
+        "trackName": "El Rollito",
+        "duration": "03:54"
+      },
+      {
+        "id": "04",
+        "trackName": "Set You Free",
+        "duration": "03:53"
+      },
+      {
+        "id": "05",
+        "trackName": "Vidage",
+        "duration": "08:48"
+      },
+      {
+        "id": "06",
+        "trackName": "Navy in Alice",
+        "duration": "05:32"
+      },
+      {
+        "id": "07",
+        "trackName": "Track me",
+        "duration": "08:31"
+      },
+      {
+        "id": "08",
+        "trackName": "Johny's",
+        "duration": "05:07"
+      },
+      {
+        "id": "09",
+        "trackName": "Abell 1835",
+        "duration": "07:14"
+      },
+      {
+        "id": "10",
+        "trackName": "Super Van Vacation",
+        "duration": " 08:42"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Dani G.",
+        "role": "vocal and bass"
+      },
+      {
+        "name": "Giannis S.",
+        "role": "guitar"
+      },
+      {
+        "name": "Giorgos T.",
+        "role": "guitar"
+      },
+      {
+        "name": "Labros G.",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "dave ross",
+        "text": "Good way to mark 200 up Favorite track: Vidage."
+      },
+      {
+        "author": "trapeze1",
+        "text": "A fine album! Stay safe and well.... Favorite track: Vidage."
+      },
+      {
+        "author": "Steve",
+        "text": "'Vidage' was not only my intro song to 1000mods, but to much of the stoner rock I listen to now. My gateway song. I still freakin love it. But their harder stuff like Road to Burn & Abell 1835 are more my speed. This band fucking rocks on every album. The jams in the longer songs always get my head banging. Keep the music coming boys. You set the standard for me. And opened doors for a lot of other bands I would bet. Favorite track: Road to Burn."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Vultures",
+    "bandName": "1000mods",
+    "image": "./images/1000--vultures.jpg",
+    "year": 2014,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Claws",
+        "duration": "05:28"
+      },
+      {
+        "id": "02",
+        "trackName": "Big Beatiful",
+        "duration": "03:47"
+      },
+      {
+        "id": "03",
+        "trackName": "She",
+        "duration": "06:21"
+      },
+      {
+        "id": "04",
+        "trackName": "Horses' Green",
+        "duration": "03:24"
+      },
+      {
+        "id": "05",
+        "trackName": "Low",
+        "duration": "04:19"
+      },
+      {
+        "id": "06",
+        "trackName": "Vultures",
+        "duration": "05:03"
+      },
+      {
+        "id": "07",
+        "trackName": "Modesty",
+        "duration": "02:55"
+      },
+      {
+        "id": "08",
+        "trackName": "Reverb of the New World",
+        "duration": "06:43"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Dani G.",
+        "role": "vocal and bass"
+      },
+      {
+        "name": "Giannis S.",
+        "role": "guitar"
+      },
+      {
+        "name": "Giorgos T.",
+        "role": "guitar"
+      },
+      {
+        "name": "Labros G.",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "photosynthefy",
+        "text": "I really like 1000 mods....what sparked my interest was the song 'She'. I love everything about that song. I think it's a masterpiece. I like that every song on this album has got its differences and they are masterfully crafted to bring your ear holes pure pleasure. These are only my opinions of course so feel free to bring your very own ears holes for a wild ride and test this most wonderful album out for yourself. Favorite track: She."
+      },
+      {
+        "author": "milanhash",
+        "text": "it's a banger"
+      },
+      {
+        "author": "easterncrow",
+        "text": "Consistent as expected; slamming where it matters. Favorite track: Claws."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Repeated exposure to​.​.​. ",
+    "bandName": "1000mods",
+    "image": "./images/1000--repeated-exposure-to​.jpg",
+    "year": 2016,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Above179",
+        "duration": "05:41"
+      },
+      {
+        "id": "02",
+        "trackName": "Loose",
+        "duration": "08:41"
+      },
+      {
+        "id": "03",
+        "trackName": "Electric Carve",
+        "duration": "03:37"
+      },
+      {
+        "id": "04",
+        "trackName": "The Son",
+        "duration": "08:41"
+      },
+      {
+        "id": "05",
+        "trackName": ".A.W.",
+        "duration": "04:16"
+      },
+      {
+        "id": "06",
+        "trackName": "On a Stone",
+        "duration": "05:25"
+      },
+      {
+        "id": "07",
+        "trackName": "Groundhog Day",
+        "duration": "07:18"
+      },
+      {
+        "id": "08",
+        "trackName": "Into the Spell",
+        "duration": "07:49"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Dani G.",
+        "role": "vocal and bass"
+      },
+      {
+        "name": "Giannis S.",
+        "role": "guitar"
+      },
+      {
+        "name": "Giorgos T.",
+        "role": "guitar"
+      },
+      {
+        "name": "Labros G.",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Alrihkh",
+        "text": "Among the best heavy rock bands in existence today. The guitar tones are so awesome! So heavy! And the vocals are perfectly suited to the mean fuzz. The drumming is done just right, too. Not overdone, just a good pummelling. Love it! Thank you, 1000mods! 9/10. Favorite track: Loose."
+      },
+      {
+        "author": "takhov",
+        "text": "Killing Fookin Riffs Favorite track: Into the Spell."
+      },
+      {
+        "author": "heckgermany",
+        "text": "Electric Carve introduced me to this Greek powerhouse, and that led me to other great Greek bands. They're killing it on this record! Favorite track: Electric Carve."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Youth of Dissent",
+    "bandName": "1000mods",
+    "image": "./images/1000--youth-of-dissent.jpg",
+    "year": 2020,
+    "country": "Greece",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Lucid",
+        "duration": "03:44"
+      },
+      {
+        "id": "02",
+        "trackName": "So many days",
+        "duration": "05:10"
+      },
+      {
+        "id": "03",
+        "trackName": "Warped",
+        "duration": "04:15"
+      },
+      {
+        "id": "04",
+        "trackName": "Dear Herculine",
+        "duration": "07:06"
+      },
+      {
+        "id": "05",
+        "trackName": "Less is More",
+        "duration": "06:15"
+      },
+      {
+        "id": "06",
+        "trackName": "21st Space Century",
+        "duration": "01:57"
+      },
+      {
+        "id": "07",
+        "trackName": "Pearl",
+        "duration": "03:31"
+      },
+      {
+        "id": "08",
+        "trackName": "Blister",
+        "duration": "04:12"
+      },
+      {
+        "id": "09",
+        "trackName": "Young",
+        "duration": "07:24"
+      },
+      {
+        "id": "10",
+        "trackName": "Dissent",
+        "duration": "04:25"
+      },
+      {
+        "id": "11",
+        "trackName": "Mirrors",
+        "duration": "07:16"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Dani G.",
+        "role": "vocal and bass"
+      },
+      {
+        "name": "Giannis S.",
+        "role": "guitar"
+      },
+      {
+        "name": "Giorgos T.",
+        "role": "guitar"
+      },
+      {
+        "name": "Labros G.",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "edolaraza",
+        "text": "The album was co-produced with Matt Bayles, and you'll can immediately understand it. It has a very American soul, but with Greeks roots. Here 1000 Mods prove that they wanna to go really high, and will make it. Thank you for this another pearl. Favorite track: Dissent."
+      },
+      {
+        "author": "Charon66",
+        "text": "So the 1000Mods are back and I can't say, they got better. But that's impossible after these last three iconic albums, which are still part of my all-time favs. But they made it again and evolved their sound slightly. Still love these concise riffs so much. A must have"
+      },
+      {
+        "author": "Dimitris Adraktas",
+        "text": "this 'modern' Stoner sound is awesome!!! Rock it out🤘🤘🤘🤘love and peace ✌️ Favorite track: So many days."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "First Communion",
+    "bandName": "Stoned Jesus",
+    "image": "./images/stoned-jesus--first-communion.jpg",
+    "year": 2010,
+    "country": "Ukraine",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Occult",
+        "duration": "10:00"
+      },
+      {
+        "id": "02",
+        "trackName": "Red Wine",
+        "duration": "05:04 "
+      },
+      {
+        "id": "03",
+        "trackName": "Black Woods",
+        "duration": "11:45"
+      },
+      {
+        "id": "04",
+        "trackName": "Falling Apart",
+        "duration": "13:25"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Igor Sydorenko",
+        "role": "guitar and vocals"
+      },
+      {
+        "name": "Alexander EphirZ",
+        "role": "bass"
+      },
+      {
+        "name": "Nick Cobold",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Whayta",
+        "text": "Sounds better on stream than flac format..more powerful. Great album!!!"
+      },
+      {
+        "author": "Fuzzy goat",
+        "text": "Black woods is one of the more representative track of the stoner-doom genre. Pure Black Sabbath heritage"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Seven Thunders Roar",
+    "bandName": "Stoned Jesus",
+    "image": "./images/stoned-jesus--seven-thunders-roar.jpg",
+    "year": 2011,
+    "country": "Ukraine",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Bright Like The Morning",
+        "duration": "07:47"
+      },
+      {
+        "id": "02",
+        "trackName": "Electric Mistress",
+        "duration": "09:21"
+      },
+      {
+        "id": "03",
+        "trackName": "Indian",
+        "duration": "04:59"
+      },
+      {
+        "id": "04",
+        "trackName": "I'm The Mountain",
+        "duration": "16:01"
+      },
+      {
+        "id": "05",
+        "trackName": "Stormy Monday",
+        "duration": "08:42"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Igor Sydorenko",
+        "role": "guitar and vocals"
+      },
+      {
+        "name": "Sergii Sliusar",
+        "role": "bass and vocals"
+      },
+      {
+        "name": "Viktor Kondratov",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "PeacemakerofthemostHigh",
+        "text": "It's a shadowing echo of my inner soul. Something dear, no one can take; but, everyone can feel. Not by touch, but, by emotion. Favorite track: I'm The Mountain."
+      },
+      {
+        "author": "Valentyn Riabukhin",
+        "text": "You guys are super-cool and I'm proud of Ukrainian production! I wish you to continue to make quality content ;) Favorite track: Indian."
+      },
+      {
+        "author": "Carol McCuller",
+        "text": "A favorite band and album. Favorite track: I'm The Mountain."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "The Harvest",
+    "bandName": "Stoned Jesus",
+    "image": "./images/stoned-jesus--the-harvest.jpg",
+    "year": 2015,
+    "country": "Ukraine",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Here Come the Robots",
+        "duration": "03:17"
+      },
+      {
+        "id": "02",
+        "trackName": "Wound",
+        "duration": "03:14"
+      },
+      {
+        "id": "03",
+        "trackName": "Rituals of the Sun",
+        "duration": "07:01"
+      },
+      {
+        "id": "04",
+        "trackName": "YFS",
+        "duration": "05:10"
+      },
+      {
+        "id": "05",
+        "trackName": "Silkworm Confessions",
+        "duration": "09:07"
+      },
+      {
+        "id": "06",
+        "trackName": "Black Church",
+        "duration": "14:45"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Igor Sydorenko",
+        "role": "vocals, guitars, Hammond organ, occasional keyboards and percussion"
+      },
+      {
+        "name": "Sergii Sliusar",
+        "role": "bass, FX, drummachine, backing vocals"
+      },
+      {
+        "name": "Viktor Kondratov",
+        "role": "drums, percussion, backing vocals"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "infinitesunrise",
+        "text": "A perfectly refreshing mix of garage-style stoner rock and doom, oscillating back and forth between the two with several other influences thrown in for taste. Really digging these guy's refusal to fully commit to any of the genres they draw from, instead using the best parts of each to create an addictive, chord-heavy head-banging stoner amalgamation that will hook you in at some point, one way or another. Favorite track: Here Come the Robots."
+      },
+      {
+        "author": "Valentyn Riabukhin",
+        "text": "Great, heavy and melodic album. You guys are cool as usual! I am proud of Ukrainian production ;) Favorite track: Wound."
+      },
+      {
+        "author": "Carsten Grossmann",
+        "text": "Yum! Ukrainian trio making one hell of a ruckus. Each track a favorite, for the album kicks of with straightforward motorcycle music to slam you into the sunset at full speed. As the ride continues into the night things get progressively weirder, darker and slower. But no less rocking. Oh it's Harvest time allright... Favorite track: Here Come the Robots."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Pilgrims",
+    "bandName": "Stoned Jesus",
+    "image": "./images/stoned-jesus--pilgrims.jpg",
+    "year": 2018,
+    "country": "Ukraine",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Excited",
+        "duration": "06:51 "
+      },
+      {
+        "id": "02",
+        "trackName": "Thessalia",
+        "duration": "04:20"
+      },
+      {
+        "id": "03",
+        "trackName": "Distant Light",
+        "duration": "06:45"
+      },
+      {
+        "id": "04",
+        "trackName": "Feel",
+        "duration": "09:10"
+      },
+      {
+        "id": "05",
+        "trackName": "Hands Resist Him",
+        "duration": "06:00"
+      },
+      {
+        "id": "06",
+        "trackName": "Water Me",
+        "duration": "09:30"
+      },
+      {
+        "id": "07",
+        "trackName": "Apathy",
+        "duration": "07:32"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Igor Sydorenko",
+        "role": "vocals, guitars"
+      },
+      {
+        "name": "Sergii Sliusar",
+        "role": "bass, FX, drummachine, backing vocals"
+      },
+      {
+        "name": "Dmytro Zinchenko",
+        "role": "drums, percussion"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "JWAR",
+        "text": "This album is amazing just like every effort put out by Stoned Jesus. Water Me is one of my favorites but they are all amazing!! You guys rule!"
+      },
+      {
+        "author": "Mikhail",
+        "text": "The best SJ's album (so far) and one of most probable candidates to the 1st place in lot of rock tops of the year (I hope).Great work! Favorite track: Feel."
+      },
+      {
+        "author": "Dreads Connor ",
+        "text": "Madmen! this is pure theatrical sillybuggers and I won't be fooled one moment of it! pure love for your lunacy; praise in his name our lord the stoned jesus of ukraine! Favorite track: Feel."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "From the Outer Space",
+    "bandName": "Stoned Jesus",
+    "image": "./images/stoned-jesus--from-the-outer-space.jpg",
+    "year": 2019,
+    "country": "Ukraine",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "The Sweet Whore of Babylon",
+        "duration": "05:53"
+      },
+      {
+        "id": "02",
+        "trackName": "Insatiable King",
+        "duration": "09:08"
+      },
+      {
+        "id": "03",
+        "trackName": "Eastern Magic",
+        "duration": "10:03"
+      },
+      {
+        "id": "04",
+        "trackName": "Occult",
+        "duration": "11:42"
+      },
+      {
+        "id": "05",
+        "trackName": "Black Woods",
+        "duration": "11:28"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Igor Sydorenko",
+        "role": "vocals, guitars"
+      },
+      {
+        "name": "Sergii Sliusar",
+        "role": "bass, FX, drummachine, backing vocals"
+      },
+      {
+        "name": "Dmytro Zinchenko",
+        "role": "drums, percussion"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "maalmike",
+        "text": "great strong, dark sound"
+      },
+      {
+        "author": "wbaveganstoner",
+        "text": "Raw, Dirty, Fuzzy, HEAVY!!! what's not to like?"
+      },
+      {
+        "author": "Hilo",
+        "text": "I have listened carefully to Occult, one of my First Communion Fetich tracks and I would not know how to decide on the demo or the original track, it is like listening to the same song in a parallel reality ..., I love it, Thank you Jesus !!!"
+      }
+    ]
   }
 ]
