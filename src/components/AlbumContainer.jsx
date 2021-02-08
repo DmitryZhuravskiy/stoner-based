@@ -10,7 +10,7 @@ function AlbumContainer({ bandName, album, getDiscography }) {
   return (
     <div className="album">
       <h2 className="album__title">{title}</h2>
-      <p className="album__artist"><Link to="/discography" className="artist__link" onClick={() => getDiscography(bandName)}>{group}<p className="album__country">({country})</p></Link></p>
+      <p className="album__artist"><Link to="/discography" className="artist__link" onClick={() => getDiscography(bandName)}>{group}<span className="album__country">({country})</span></Link></p>
       <div className="album__img-year-country-tracklist">
         <div className="album__img-year-country">
           <img src={image} alt={title} />

@@ -269,7 +269,40 @@ ul {
 }
 
 .footer {
+  display: block;
   width: 100%;
   min-height: 200px;
   background: yellow;
+}
+
+.footer .social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 auto;
+
+}
+
+.social-links li {
+  list-style-type: none;
+  width: 150px;
+  padding: 10px 0;
+} 
+
+.social-links .social-link {
+  text-decoration: none;
+  color: purple;
+}
+
+.social-links .social-link:hover {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.copywright {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: orangered;
 }

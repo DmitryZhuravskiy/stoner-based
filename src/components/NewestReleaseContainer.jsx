@@ -12,7 +12,7 @@ function NewestReleaseContainer({ getAlbum, getDiscography, bandName, album }) {
             <h3 className="newest__title">Свежая подборка пластинок</h3>
             <ul>
                 {
-                    base.map(album => (
+                    base.sort((a, b) => (b.year-a.year)).map(album => (
                         <li key={album.title}>
                             <img src={album.image} width="200" height="200" alt={album.title}/>
                             <p><Link to="/discography" onClick={() => getDiscography(album.bandName)}>{album.bandName}</Link></p>
@@ -22,8 +22,6 @@ function NewestReleaseContainer({ getAlbum, getDiscography, bandName, album }) {
                     ))
                 }
             </ul>
-            <p>Это группа  {bandName}</p>
-            <p>Альбом в стеке  {album}</p>
         </div>
     )
 }

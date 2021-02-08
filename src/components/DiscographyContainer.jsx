@@ -10,10 +10,10 @@ function DiscographyContainer({ bandName, getAlbum, album }) {
         <div className="discography">
             <h2 className="discography__title">Discography of {base.bandName}</h2>
             <ul>
-                {base.map(album => (
+                {base.sort((a, b) => (b.year-a.year)).map(album => (
                     <li key={album.title} className="discography__album">
                         <img src={album.image} alt={album.title}/>
-                        <p className="discography__album-title"><Link to="/album" className="discography__album-title-link" onClick={() => getAlbum(bandName, album)}>{album.title}</Link></p>
+                        <p className="discography__album-title"><Link to="/album" className="discography__album-title-link" onClick={() => getAlbum(bandName, album.title)}>{album.title}</Link></p>
                         <p className="discography__year">{album.year}</p>
                     </li>
                 ))}

@@ -8,6 +8,7 @@ import AlbumContainer from "./components/AlbumContainer";
 import DiscographyContainer from "./components/DiscographyContainer";
 import NewestReleaseContainer from "./components/NewestReleaseContainer";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import {
   BrowserRouter
 } from "react-router-dom";
@@ -25,7 +26,7 @@ function App() {
             <Route path="/album" component={AlbumContainer} />
             <Route path="/discography" component={DiscographyContainer} />
           </Switch>
-          <div className="footer" />
+          <Footer />
         </div>
         </BrowserRouter>
       </Provider>
