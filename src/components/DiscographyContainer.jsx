@@ -8,7 +8,7 @@ function DiscographyContainer({ bandName, getAlbum, album }) {
     const base = based.filter(x => (x.bandName === bandName));
     return (
         <div className="discography">
-            <h2 className="discography__title">Discography of {base.bandName}</h2>
+            <h2 className="discography__title">Discography of {bandName}</h2>
             <ul>
                 {base.sort((a, b) => (b.year-a.year)).map(album => (
                     <li key={album.title} className="discography__album">

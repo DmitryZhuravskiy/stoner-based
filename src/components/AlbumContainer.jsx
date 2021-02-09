@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
 import { getDiscography } from "../redux";
 
-function AlbumContainer({ bandName, album, getDiscography }) {
-  const base = based.filter(x => (x.bandName == bandName)).filter(x => (x.title == album));
+function Pagination({ bandName, album, getDiscography }) {
+  const base = based.filter(x => (x.bandName === bandName)).filter(x => (x.title === album));
   const { title, group, image, year, country, tracklist, artists, reviews } = base[0];
   return (
     <div className="album">
       <h2 className="album__title">{title}</h2>
-      <p className="album__artist"><Link to="/discography" className="artist__link" onClick={() => getDiscography(bandName)}>{group}<span className="album__country">({country})</span></Link></p>
+      <p className="album__artist"><Link to="/discography" className="artist__link" onClick={() => getDiscography(bandName)}><p>{group}<span className="album__country">({country})</span></p></Link></p>
       <div className="album__img-year-country-tracklist">
         <div className="album__img-year-country">
           <img src={image} alt={title} />
@@ -62,4 +62,4 @@ const mapDispatchToProps = (dispatch) => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(AlbumContainer);
+)(Pagination);

@@ -306,3 +306,82 @@ ul {
   text-align: center;
   color: orangered;
 }
+
+.pagination-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination__pages,
+.pagination__albums-on-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.pagination .page-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.pagination .page-item .page-link,
+.albums-on-page {
+  display: block;
+  width: 40px;
+  height: 30px;
+  padding-top: 5px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: green;
+}
+
+.pagination .page-item .page-link--active,
+.pagination__albums-on-page .albums-on-page--active {
+  color: purple;
+  background: yellow;
+}
+
+.pagination-message,
+.pagination-albums-on-page {
+  color: orangered;
+  margin-left: -30px;
+}
+
+.albums-on-page {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: green;
+  background: white;
+  border: 2px black solid;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-size: 14px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.pagination-albums-on-page  {
+    margin-left: 0px;
+    margin-right: 20px;
+}

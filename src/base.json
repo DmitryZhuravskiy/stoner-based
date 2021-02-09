@@ -1718,5 +1718,295 @@
         "text": "I have listened carefully to Occult, one of my First Communion Fetich tracks and I would not know how to decide on the demo or the original track, it is like listening to the same song in a parallel reality ..., I love it, Thank you Jesus !!!"
       }
     ]
+  },
+    {
+    "id": 23,
+    "title": "Mars Red Sky",
+    "bandName": "Mars Red Sky",
+    "image": "./images/mars-red-sky--mars-red-sky.jpg",
+    "year": 2011,
+    "country": "France",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "Strong Reflection",
+        "duration": "05:31"
+      },
+      {
+        "id": "02",
+        "trackName": "Curse",
+        "duration": "04:04"
+      },
+      {
+        "id": "03",
+        "trackName": "Falls",
+        "duration": "06:25"
+      },
+      {
+        "id": "04",
+        "trackName": "Way To Rome",
+        "duration": "05:19"
+      },
+      {
+        "id": "05",
+        "trackName": "Saddle Point",
+        "duration": "04:14"
+      },
+      {
+        "id": "06",
+        "trackName": "Marble Sky",
+        "duration": "06:01"
+      },
+      {
+        "id": "07",
+        "trackName": "Up The Stairs",
+        "duration": "07:58"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Julien Pras",
+        "role": "vocals, guitars"
+      },
+      {
+        "name": "Jimmy Kinast",
+        "role": "bass, vocals"
+      },
+      {
+        "name": "Mathieu Gazeau",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "alligator rodeo",
+        "text": "Absolutely fantastic! The only weakness might be, that the best song is the opener of the record, but following songs are not bad at all! Favorite track: Strong Reflection."
+      },
+      {
+        "author": "Matthew",
+        "text": "Hooked from the first few bars.... and I love the vocals which add an ethereal, melodic, and almost delicate touch to what is a pretty heavy piece of work. There's real musicianship here too, a great combo. Favorite track: Strong Reflection."
+      },
+      {
+        "author": "Nik Havert ",
+        "text": "It's as heavy as white dwarf star matter and as bright as a summer sunrise at the same time. I'm not sure how they did it, but it's great. Here's my full review - www.7thlevelmusic.com?p=6833 Favorite track: Strong Reflection."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Stranded in Arcadia",
+    "bandName": "Mars Red Sky",
+    "image": "./images/mars-red-sky--stranded-in-arcadia.jpg",
+    "year": 2014,
+    "country": "France",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "The light beyond",
+        "duration": "08:03"
+      },
+      {
+        "id": "02",
+        "trackName": "Hovering satellites",
+        "duration": "05:35"
+      },
+      {
+        "id": "03",
+        "trackName": "Join the race",
+        "duration": "04:54"
+      },
+      {
+        "id": "04",
+        "trackName": "Holy Mondays",
+        "duration": "05:18"
+      },
+      {
+        "id": "05",
+        "trackName": "Arcadia",
+        "duration": "05:56"
+      },
+      {
+        "id": "06",
+        "trackName": "Circles",
+        "duration": "04:59"
+      },
+      {
+        "id": "07",
+        "trackName": "Seen a ghost",
+        "duration": "07:17"
+      },
+      {
+        "id": "08",
+        "trackName": "Beoynd the light",
+        "duration": "02:34"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Julien Pras",
+        "role": "vocals, guitars"
+      },
+      {
+        "name": "Jimmy Kinast",
+        "role": "bass, vocals"
+      },
+      {
+        "name": "Mathieu Gazeau",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Stoner Vibrations",
+        "text": "This a great album, reminds me a little of Dead Meadow. Though I feel like MRS has shifted a little more to the Doomy side in their riffs, a slight change from their debut album. Although this is a fantastic album I feel that none of the tracks quite compare with tracks like 'Strong Reflection', 'Way to Rome' or 'Up the stairs' from their first album. Definitely worth a buy though. Favorite track: ARCADIA."
+      },
+      {
+        "author": "Elliott Mariess",
+        "text": "MRS will alway remain a strong favourite in my music collection. They somehow drift seamlessly between dreamy psych to upbeat stoner rock into slow sludgy doomy territories. every album/song is its own journey. Favorite track: JOIN THE RACE."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "APEX III ( Praise for the Burning Soul )",
+    "bandName": "Mars Red Sky",
+    "image": "./images/mars-red-sky--apex-III.jpg",
+    "year": 2016,
+    "country": "France",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "(Alien Grounds)",
+        "duration": "03:45"
+      },
+      {
+        "id": "02",
+        "trackName": "Apex III",
+        "duration": "07:07"
+      },
+      {
+        "id": "03",
+        "trackName": "The Whinery",
+        "duration": "06:05"
+      },
+      {
+        "id": "04",
+        "trackName": "The mindreader",
+        "duration": "06:31"
+      },
+      {
+        "id": "05",
+        "trackName": "Under the hood",
+        "duration": "05:04"
+      },
+      {
+        "id": "06",
+        "trackName": "Friendly fire",
+        "duration": "04:51"
+      },
+      {
+        "id": "07",
+        "trackName": "Profigal sun",
+        "duration": "06:45"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Julien Pras",
+        "role": "vocals, guitars"
+      },
+      {
+        "name": "Jimmy Kinast",
+        "role": "bass, vocals"
+      },
+      {
+        "name": "Mathieu Gazeau",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Michael Reilly",
+        "text": "An album that evolves and improves as it unfolds, there's plenty of entertaining space/stoner/psych moments here to enjoy. Mars Red Sky's sound is irresistibly solid, expressively stylish and progressive. Favorite track: FRIENDLY FIRE."
+      },
+      {
+        "author": "abnormal_listening_habits",
+        "text": "This is one of my favorite discoveries of late here on Bc, this site had tons of buried treasure."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "The Task Eternal",
+    "bandName": "Mars Red Sky",
+    "image": "./images/mars-red-sky--the-task-eternal.jpg",
+    "year": 2019,
+    "country": "France",
+    "tracklist": [
+      {
+        "id": "01",
+        "trackName": "The proving grounds",
+        "duration": "07:55"
+      },
+      {
+        "id": "02",
+        "trackName": "Collector",
+        "duration": "04:14"
+      },
+      {
+        "id": "03",
+        "trackName": "Recast",
+        "duration": "07:19"
+      },
+      {
+        "id": "04",
+        "trackName": "Reacts",
+        "duration": "07:43"
+      },
+      {
+        "id": "05",
+        "trackName": "Crazy hearth",
+        "duration": "05:05"
+      },
+      {
+        "id": "06",
+        "trackName": "Hollow King",
+        "duration": "06:20"
+      },
+      {
+        "id": "07",
+        "trackName": "Soldier on",
+        "duration": "06:18"
+      },
+      {
+        "id": "08",
+        "trackName": "A far cry",
+        "duration": "04:55"
+      }
+    ],
+    "artists": [
+      {
+        "name": "Julien Pras",
+        "role": "vocals, guitars"
+      },
+      {
+        "name": "Jimmy Kinast",
+        "role": "bass, vocals"
+      },
+      {
+        "name": "Mathieu Gazeau",
+        "role": "drums"
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Marcin Wielewski",
+        "text": "It's one the current bands, that has very uniqe sound, and You can't deceive it with any other band. I've participated two their gigs in Krakow and each one was heavy riffs melted with angel singing. Favorite track: HOLLOW KING."
+      },
+      {
+        "author": "Michael Reilly",
+        "text": "At their best MRS are an almost unstoppable force, powering their way forward with evocative compositions that mix strength and beauty with ease. My faves here are REACTS and CRAZY HEARTH – songs that achieve great balance and intensity: gateways to another world. Favorite track: REACTS."
+      }
+    ]
   }
 ]
