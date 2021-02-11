@@ -7,46 +7,48 @@ import { getAlbum, getDiscography } from "../redux";
 import React from 'react';
 import Pagination from "./Pagination";
 
-function NewestReleaseContainer({ getAlbum, getDiscography, bandName, album, firstAlbumId, lastAlbumId }) {
-    const baseSort = base.sort((a, b) => (b.year - a.year)).slice(firstAlbumId, lastAlbumId);
-    return ( <
-        div className = "newest" >
-        <
-        h3 className = "newest__title" > Fresh Stoner Records < /h3> <
-        ul > {
-            baseSort.map(album => ( <
-                li key = { album.title } >
-                <
-                img src = { album.image }
-                width = "200"
-                height = "200"
-                alt = { album.title }
-                /> <
-                p > < Link to = "/discography"
-                onClick = {
-                    () => getDiscography(album.bandName) } > { album.bandName } < /Link></p >
-                <
-                p > < Link to = "/album"
-                onClick = {
-                    () => getAlbum(album.bandName, album.title) } > { album.title } < /Link></p >
-                <
-                p > { album.year } < /p> <
-                /li>
-            ))
-        } <
-        /ul> <
-        Pagination / >
-        <
-        /div>
-    )
+class NewestReleaseContainer extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            albumsPerPage: this.props.albumsPerPage,
+            activePage: this.props.activePage,
+            lastAlbumId: this.albumsPerPage*this.activePage,
+            firstAlbumId: this.lastAlbumId - this.albumsPerPage,
+            baseSort: base.sort((a, b) => (b.year - a.year)).slice(this.firstAlbumId, this.lastAlbumId),
+        };
+        this.getDiscography = this.props.getDiscography;
+        this.getAlbum = this.props.getAlbum;
+    }
+
+    componentDidUpdate(prevProps) {
+        if (this.props.activePage !== prevProps.activePage || this.props.albumsPerPage !== prevProps.albumsPerPage ) {
+            this.baseSort = base.sort((a, b) => (b.year - a.year)).slice(this.firstAlbumId, this.lastAlbumId);
+        }
+    }
+
+    render() {
+        this.baseSort = base.sort((a, b) => (b.year - a.year)).slice(this.firstAlbumId, this.lastAlbumId);
+        return (<
+            div className="newest">
+            <h3 className="newest__title"> Fresh Stoner Records </h3>
+            <ul> {this.state.baseSort.map(album => (<li key={album.title} >
+                <img src={album.image} width="200" height="200" alt={album.title} />
+                <p><Link to="/discography" onClick={() => this.getDiscography(album.bandName)}>{album.bandName}</Link></p>
+                <p><Link to="/album" onClick={() => this.getAlbum(album.bandName, album.title)}>{album.title}</Link></p>
+                <p>{album.year}</p></li>))}</ul>
+            <Pagination />
+        </div>
+        )
+    }
 }
 
 const mapStateToProps = (state) => {
     return {
         bandName: state.stoner.bandName,
         album: state.stoner.album,
-        firstAlbumId: state.stoner.firstAlbumId,
-        lastAlbumId: state.stoner.lastAlbumId
+        albumsPerPage: state.stoner.albumsPerPage,
+        activePage: state.stoner.activePage
     }
 }
 
