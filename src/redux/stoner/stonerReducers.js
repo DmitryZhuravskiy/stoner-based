@@ -5,13 +5,16 @@ import {
   CHANGE_ALBUMS_PER_PAGE
 } from "./stonerTypes";
 
+import base from './../../base.json';
+
 const initialState = {
   bandName: "Void Droid",
   album: "Bipolar",
   albumsPerPage: 5,
   activePage: 1,
   firstAlbumId: 1,
-  lastALbumId: 5
+  lastALbumId: 5,
+  based: base
 };
 
 const stonerReducer = (state = initialState, action) => {
@@ -28,7 +31,8 @@ const stonerReducer = (state = initialState, action) => {
         ...state,
         activePage: action.activePage,
         firstAlbumId: action.activePage*state.albumsPerPage - state.albumsPerPage,
-        lastALbumId: action.activePage*state.albumsPerPage
+        lastALbumId: action.activePage*state.albumsPerPage,
+        based: base.sort((a, b) => (b.year - a.year)).slice(state.firstAlbumId, state.lastAlbumId)
       };
 
     case CHANGE_ALBUMS_PER_PAGE:
@@ -36,14 +40,16 @@ const stonerReducer = (state = initialState, action) => {
         ...state,
         albumsPerPage: action.albumsPerPage,
         firstAlbumId: state.activePage*action.albumsPerPage - action.albumsPerPage,
-        lastALbumId: state.activePage*action.albumsPerPage
+        lastALbumId: state.activePage*action.albumsPerPage,
+        based: base.sort((a, b) => (b.year - a.year)).slice(state.firstAlbumId, state.lastAlbumId)
       };
 
       case GET_DISCOGRAPHY:
         return {
           ...state,
           bandName: action.bandName,
-          album: ''
+          album: '',
+          based: base
         };
 
     default:

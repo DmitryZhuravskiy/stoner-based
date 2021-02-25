@@ -1,10 +1,9 @@
 import React from 'react';
-import based from './../base.json';
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
 import { getAlbum } from "../redux";
 
-function DiscographyContainer({ bandName, getAlbum, album }) {
+function DiscographyContainer({ bandName, getAlbum, album, based }) {
     const base = based.filter(x => (x.bandName === bandName));
     return (
         <div className="discography">
@@ -25,7 +24,8 @@ function DiscographyContainer({ bandName, getAlbum, album }) {
 const mapStateToProps = (state) => {
     return {
         bandName: state.stoner.bandName,
-        album: state.stoner.album
+        album: state.stoner.album,
+        based: state.stoner.based
     }
 }
 

@@ -1,10 +1,9 @@
 import React from 'react';
-import based from './../base.json';
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
 import { getDiscography } from "../redux";
 
-function Pagination({ bandName, album, getDiscography }) {
+function Pagination({ bandName, album, getDiscography, based }) {
   const base = based.filter(x => (x.bandName === bandName)).filter(x => (x.title === album));
   const { title, group, image, year, country, tracklist, artists, reviews } = base[0];
   return (
@@ -52,6 +51,7 @@ const mapStateToProps = (state) => {
   return {
     bandName: state.stoner.bandName,
     album: state.stoner.album,
+    based: state.stoner.based,
   }
 }
 

@@ -44,6 +44,18 @@ ul {
   padding: 0;
 }
 
+.navigation ul li{
+  list-style-type: none;
+}
+
+.navigation__link-to-main {
+  text-decoration: none;
+}
+
+.navigation__link-to-main:hover {
+  color: deepskyblue;
+}
+
 .newest {
   background: yellowgreen;
 }
@@ -53,6 +65,7 @@ ul {
   padding: 20px;
   text-align: center;
   font-size: 30px;
+  color: purple;
 }
 
 .newest ul {
@@ -381,7 +394,27 @@ ul {
   cursor: pointer;
 }
 
+.pagination .page-item .page-link:hover,
+.albums-on-page:hover {
+  color: black;
+  background: yellow;
+  border-color: white;
+}
+
 .pagination-albums-on-page  {
     margin-left: 0px;
     margin-right: 20px;
 }
+
+.album__band,
+.album__description {
+  text-decoration: none;
+  color: purple;
+}
+
+.album__band:hover,
+.album__description:hover {
+  text-decoration: none;
+  color: deepskyblue;
+}
+
