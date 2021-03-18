@@ -14,3 +14,19 @@
 <img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--1.jpg "/>
 <b>Страница подборки альбомов</b>
 <br /><br /><br /><br /><br />
+
+<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--2.jpg "/>
+<b>Страница подборки альбомов</b>
+<br /><br /><br /><br /><br />
+
+<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--3.jpg "/>
+<b>Страница подборки альбомов</b>
+<br /><br /><br /><br /><br />
+
+<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--4.jpg "/>
+<b>Страница подборки альбомов</b>
+<br /><br /><br /><br /><br />
+
+<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--5.jpg "/>
+<b>Страница подборки альбомов</b>
+<br /><br /><br /><br /><br />
