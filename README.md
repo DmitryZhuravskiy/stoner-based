@@ -28,5 +28,5 @@
 <br /><br /><br /><br /><br />
 
 <img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--5.jpg "/>
-<b>Страница информации по выбранному альбому</b>
+<b>... её окончание</b>
 <br />
