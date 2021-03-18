@@ -11,3 +11,6 @@
 Для удобства в header сделал возвращение на главную через "Main Page", а в footer указал некоторые свои контакты. Проект учебный, вместо backend файлик base.json, из которого и берется вся информация для отображения. Вбивал сам, при deploy на github pages пришлось переделывать ссылки на картинки с расположенных в проекте на из открытого доступа.
 
 
+<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/master/public/images/stoner-based--1.jpg "/>
+<b>Страница подборки альбомов</b>
+<br /><br /><br /><br /><br />
