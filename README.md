@@ -4,11 +4,11 @@
 <br /><br />
 
 <h2><b>Руководство по запуску</b></h2>
-<b>1.</b> <i>git clone https://github.com/DmitryZhuravskiy/stoner-based.git</i> - копируем репозиторий;<br />
-<b>2.</b> <i>cd ./stoner-based</i> - переходим в папку с локальной версией;<br />
-<b>3.</b> <i>npm install</i> - устанавливаем зависимости;<br />
-<b>4.</b> <i>npm start</i> - для просмотра локальной версии в браузере по адресу http://localhost:3000/ ;<br />
-<b>5.</b> или <i>npm run build</i> для сборки проекта;<br />
+<b>1.</b> git clone https://github.com/DmitryZhuravskiy/stoner-based.git <i> - копируем репозиторий;</i><br />
+<b>2.</b> cd ./stoner-based <i>- переходим в папку с локальной версией;</i><br />
+<b>3.</b> npm install <i>- устанавливаем зависимости;</i><br />
+<b>4.</b> npm start <i>- для просмотра локальной версии в браузере по адресу http://localhost:3000/ ;</i><br />
+<b>5.</b> <i>или</i> npm run build <i> для сборки проекта;</i><br />
 <br /><br />
 <h2><b>Описание проекта</b></h2>
 
