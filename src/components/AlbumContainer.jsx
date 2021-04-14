@@ -2,48 +2,161 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
 import { getDiscography } from "../redux";
+import styled from 'styled-components';
+
+const StyledAlbum = styled.div`
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+background: blueviolet;
+`
+const StyledAlbumTitle = styled.h2`
+display: block;
+padding: 10px;
+margin: 0 auto;
+text-align: center;
+font-size: 30px;
+color: yellow;
+`
+const StyledAlbumArtist = styled.div`
+display: block;
+padding: 10px;
+margin: 0 auto;
+margin-bottom: 20px;
+text-align: center;
+font-size: 30px;
+color: yellowgreen;
+`
+const StyledAlbumAlbumCountry = styled.span`
+display: block;
+padding: 10px;
+margin: 0 auto;
+margin-bottom: 20px;
+text-align: center;
+font-size: 30px;
+color: yellowgreen;
+`
+const StyledTracklist = styled.div`
+display: flex;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+`
+const StyledCountry = styled.div`
+width: 700px;
+`
+const StyledCountryImage = styled.img`
+display: block;
+width: 600px;
+height: 600px;
+margin: 0 auto;
+border: 10px white solid;
+`
+const StyledAlbumYear = styled.p`
+width: 100 %;
+margin: 5px;
+text-align: center;
+font-size: 40px;
+color: yellow;
+`
+const StyledAlbumTracklist = styled.div`
+min-width: 400px;
+flex-grow: 10;
+`
+const StyledTracklistTitle = styled.div`
+display: block;
+margin-bottom: 20px;
+color: yellow;
+text-transform: uppercase;
+font-size: 25px;
+`
+const StyledAlbumTracklistItem = styled.li`
+margin: 5px 0;
+font-size: 18px;
+color: yellowgreen;
+list-style-type: none;
+`
+const StyledArtistTitle = styled.p`
+margin-top: 40px;
+margin-bottom: 20px;
+font-size: 25px;
+color: yellow;
+text-transform: uppercase;
+`
+const StyledArtistItem = styled.li`
+list-style-type: none;
+margin: 5px 0;
+color: yellowgreen;
+font-size: 18px;
+`
+const StyledReviewsTitle = styled.p`
+margin-left: 40px;
+text-transform: uppercase;
+color: yellow;
+font-size: 35px;
+`
+const StyledReview = styled.li`
+display: block;
+padding-bottom: 15px;
+margin-left: 40px;
+margin-top: 10px;
+margin-bottom: 10px;
+list-style-type: none;
+`
+const StyledReviewTitle = styled.h4`
+font-size: 25px;
+color: orangered;
+`
+const StyledReviewText = styled.h4`
+font-size: 20px;
+color: orange;
+`
 
 function Pagination({ bandName, album, getDiscography, based }) {
   const base = based.filter(x => (x.bandName === bandName)).filter(x => (x.title === album));
   const { title, group, image, year, country, tracklist, artists, reviews } = base[0];
   return (
-    <div className="album">
-      <h2 className="album__title">{title}</h2>
-      <p className="album__artist"><Link to="/discography" className="artist__link" onClick={() => getDiscography(bandName)}><p>{group}<span className="album__country">({country})</span></p></Link></p>
-      <div className="album__img-year-country-tracklist">
-        <div className="album__img-year-country">
-          <img src={image} alt={title} />
-          <p className="album__year">{year}</p>
-        </div>
-        <div className="album__tracklist">
-          <p className="tracklist__title">Tracklist</p>
+    <StyledAlbum>
+      <StyledAlbumTitle>{title}</StyledAlbumTitle>
+      <StyledAlbumArtist>
+        <Link to="/discography" className="artist__link" onClick={() => getDiscography(bandName)}>
+          <p>{group}<StyledAlbumAlbumCountry>({country})</StyledAlbumAlbumCountry></p>
+        </Link>
+      </StyledAlbumArtist>
+      <StyledTracklist>
+        <StyledCountry>
+          <StyledCountryImage src={image} alt={title} />
+          <StyledAlbumYear>{year}</StyledAlbumYear>
+        </StyledCountry>
+        <StyledAlbumTracklist>
+          <StyledTracklistTitle>Tracklist</StyledTracklistTitle>
           <ul>
             {tracklist.map(track => (
-              <li key={track.id} >
+              <StyledAlbumTracklistItem key={track.id} >
                 {track.id} - {track.trackName} - {track.duration}
-              </li>)
+              </StyledAlbumTracklistItem>)
             )}
           </ul>
-          <p className="artist__title">Artists</p>
+          <StyledArtistTitle>Artists</StyledArtistTitle>
           <ul>
             {artists.map(artist => (
-              <li key={artist.name} className="artist__item">
+              <StyledArtistItem key={artist.name} >
                 {artist.name} - {artist.role}
-              </li>)
+              </StyledArtistItem>)
             )}
           </ul>
-        </div>
-      </div>
-      <p className="album__reviews-title">Reviews</p>
+        </StyledAlbumTracklist>
+      </StyledTracklist>
+      <StyledReviewsTitle>Reviews</StyledReviewsTitle>
       <ul>
         {reviews.map(review => (
-          <li key={review.author} className="review">
-            <h4 className="review__title">{review.author}</h4>
-            <p className="review__text">{review.text}</p>
-          </li>)
+          <StyledReview key={review.author} >
+            <StyledReviewTitle>{review.author}</StyledReviewTitle>
+            <StyledReviewText>{review.text}</StyledReviewText>
+          </StyledReview>)
         )}
       </ul>
-    </div>
+    </StyledAlbum>
   )
 }
 

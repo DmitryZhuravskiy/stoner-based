@@ -1,16 +1,36 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
+import styled from 'styled-components';
+import LinkComponent from "./Link";
+
+const StyledTitleMessage = styled.h1`
+display: block;
+width: 100%;
+padding: 20px;
+margin: 0;
+background: yellow;
+color: orangered;
+text-align: center;
+box-sizing: border-box;
+font-size: 40px;
+`
+const StyledNavigation = styled.div`
+width: 100%;
+padding: 20px;
+margin: 0;
+box-sizing: border-box;
+background: yellow;
+`
 
 function Header({ bandName, album }) {
     return (
-        <div className="header" >
-            <h1 className="title-message">Stoner Base</h1>
-            <div className="navigation">
+        <div>
+            <StyledTitleMessage>Stoner Base</StyledTitleMessage>
+            <StyledNavigation>
                 <ul>
-                    <li><Link to="/" className="navigation__link-to-main">Main Page</Link></li>
+                    <li><LinkComponent httpTo="/" >Main Page</LinkComponent></li>
                 </ul>
-            </div >
+            </StyledNavigation>
         </div>
     )
 }

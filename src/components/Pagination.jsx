@@ -2,6 +2,83 @@ import React from 'react';
 import based from './../base.json';
 import { connect } from 'react-redux';
 import { changePage, changeAlbumsPerPage } from "../redux";
+import styled, { css } from 'styled-components';
+
+const StyledFlex = styled.div`
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+`
+const StyledPaginationContainer = styled(StyledFlex)`
+justify-content: space-around;
+`
+const StyledPagination = styled.ul`
+display: flex;
+justify-content: flex-start;
+padding: 20px;
+`
+const StyledPageItem = styled.li`
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+padding: 0;
+margin: 0;
+margin-right: 40px;
+border-radius: 5px;
+`
+const StyledPageLink = styled.a`
+display: block;
+width: 40px;
+height: 30px;
+padding-top: 5px;
+text-align: center;
+text-decoration: none;
+color: green;
+&:hover {
+  color: black;
+  background: yellow;
+  border-color: white;
+}
+  ${props => props.active && css`
+    color: ${ props => props.color || "purple" };
+    background: ${ props => props.background || "yellow" };
+  `}
+`
+const StyledPaginationMessage = styled.p`
+  color: orangered;
+  margin-left: -30px;
+`
+const StyledAlbumsOnPage = styled.button`
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  border: 2px black solid;
+  text-align: center;
+  text-decoration: none;
+  color: green;
+  background: white;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  cursor: pointer;
+  &:hover {
+    color: black;
+    background: yellow;
+    border-color: white;
+  }
+  ${props => props.active && css`
+    color: ${ props => props.color || "purple" };
+    background: ${ props => props.background || "yellow" };
+  `}
+`
+const StyledPaginationAlbumsOnPage = styled.p`
+margin-left: 0px;
+margin-right: 20px;
+`
 
 function Pagination({ activePage, albumsPerPage, firstAlbumId, lastAlbumId, changePage, changeAlbumsPerPage }) {
   const pageNumbers = [];
@@ -9,41 +86,41 @@ function Pagination({ activePage, albumsPerPage, firstAlbumId, lastAlbumId, chan
     pageNumbers.push(i);
   }
   return (
-    <div className="pagination-container">
-      <div className="pagination__pages">
-        <ul className='pagination'>
+    <StyledPaginationContainer>
+      <StyledFlex>
+        <StyledPagination>
           {pageNumbers.map(number => (
             !(number == activePage) && (
-              <li key={number} className='page-item'>
-                <a onClick={() => changePage(number)} href='#' className="page-link">{number}</a>
-              </li>) ||
+              <StyledPageItem  key={number}>
+                <StyledPageLink onClick={() => changePage(number)} href='#'>{number}</StyledPageLink>
+              </StyledPageItem>) ||
             (number == activePage) && (
-              <li key={number} className='page-item'>
-                <a onClick={() => changePage(number)} href='#' className="page-link page-link--active">{number}</a>
-              </li>)
+              <StyledPageItem key={number}>
+                <StyledPageLink onClick={() => changePage(number)} href='#' active>{number}</StyledPageLink>
+              </StyledPageItem>)
           ))}
-        </ul>
-        <p className="pagination-message">Page Numbers</p>
-      </div>
-      <div className="pagination__albums-on-page">
-        <p className="pagination-albums-on-page">Albums on Page</p>
+        </StyledPagination>
+        <StyledPaginationMessage>Page Numbers</StyledPaginationMessage>
+      </StyledFlex>
+      <StyledPaginationAlbumsOnPage>
+        <StyledPaginationAlbumsOnPage>Albums on Page</StyledPaginationAlbumsOnPage>
         {(albumsPerPage === 5) && (<>
-          <button className="albums-on-page albums-on-page--active" onClick={() => changeAlbumsPerPage(5)}>5</button>
-          <button className="albums-on-page" onClick={() => changeAlbumsPerPage(10)}>10</button>
-          <button className="albums-on-page" onClick={() => changeAlbumsPerPage(20)}>20</button></>)
+          <StyledAlbumsOnPage active onClick={() => changeAlbumsPerPage(5)}>5</StyledAlbumsOnPage>
+          <StyledAlbumsOnPage onClick={() => changeAlbumsPerPage(10)}>10</StyledAlbumsOnPage>
+          <StyledAlbumsOnPage onClick={() => changeAlbumsPerPage(20)}>20</StyledAlbumsOnPage></>)
         }
         {(albumsPerPage === 10) && (<>
-          <button className="albums-on-page" onClick={() => changeAlbumsPerPage(5)}>5</button>
-          <button className="albums-on-page albums-on-page--active" onClick={() => changeAlbumsPerPage(10)}>10</button>
-          <button className="albums-on-page" onClick={() => changeAlbumsPerPage(20)}>20</button></>)
+          <StyledAlbumsOnPage onClick={() => changeAlbumsPerPage(5)}>5</StyledAlbumsOnPage>
+          <StyledAlbumsOnPage active onClick={() => changeAlbumsPerPage(10)}>10</StyledAlbumsOnPage>
+          <StyledAlbumsOnPage onClick={() => changeAlbumsPerPage(20)}>20</StyledAlbumsOnPage></>)
         }
         {(albumsPerPage === 20) && (<>
-          <button className="albums-on-page" onClick={() => changeAlbumsPerPage(5)}>5</button>
-          <button className="albums-on-page" onClick={() => changeAlbumsPerPage(10)}>10</button>
-          <button className="albums-on-page albums-on-page--active" onClick={() => changeAlbumsPerPage(20)}>20</button></>)
+          <StyledAlbumsOnPage onClick={() => changeAlbumsPerPage(5)}>5</StyledAlbumsOnPage>
+          <StyledAlbumsOnPage onClick={() => changeAlbumsPerPage(10)}>10</StyledAlbumsOnPage>
+          <StyledAlbumsOnPage activePage onClick={() => changeAlbumsPerPage(20)}>20</StyledAlbumsOnPage></>)
         }
-      </div>
-    </div>
+      </StyledPaginationAlbumsOnPage>
+    </StyledPaginationContainer>
   )
 }
 
@@ -51,7 +128,6 @@ const mapStateToProps = (state) => {
   return {
     albumsPerPage: state.stoner.albumsPerPage,
     activePage: state.stoner.activePage,
-    albumsPerPage: state.stoner.albumsPerPage,
     firstAlbumId: state.stoner.firstAlbumId,
     lastAlbumId: state.stoner.lastAlbumId,
   }

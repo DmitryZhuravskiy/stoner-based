@@ -1,10 +1,45 @@
-import {
-    Link
-} from "react-router-dom";
 import { connect } from 'react-redux';
 import { getAlbum, getDiscography } from "../redux";
 import React from 'react';
 import Pagination from "./Pagination";
+import LinkComponent from "./Link";
+import styled from 'styled-components';
+
+const StyledNewest = styled.div`
+background: yellowgreen;
+`
+const StyledNewestTitle = styled.h3`
+padding: 20px;
+margin: 0 auto;
+text-align: center;
+font-size: 30px;
+color: purple;
+`
+const StyledNewestList = styled.ul`
+display: flex;
+flex-wrap: wrap;
+flex-direction: space-between;
+`
+const StyledNewestListItem = styled.li`
+flex-direction: space-around;
+width: 250px;
+padding: 10px;
+margin: 20px;
+border: 2px black solid;
+box-sizing: border-box;
+background: white;
+list-style-type: none;
+`
+const StyledNewestListItemImage = styled.img`
+display: block;
+margin: 0 auto;
+margin-bottom: 10px;
+border: 1px black solid;
+`
+const StyledNewestListItemText = styled.p`
+width: 100%;
+text-align: center;
+`
 
 class NewestReleaseContainer extends React.Component {
     constructor(props) {
@@ -30,16 +65,20 @@ class NewestReleaseContainer extends React.Component {
     render() {
         this.state.baseSort = [...this.props.based.sort((a, b) => (b.year - a.year))].slice(this.firstAlbumId, this.lastAlbumId);
         console.log(this.baseSort);
-        return (<
-            div className="newest">
-            <h3 className="newest__title">Newest Stoner Records </h3>
-            <ul> {this.state.baseSort.map(album => (<li key={album.title} >
-                <img src={album.image} width="200" height="200" alt={album.title} />
-                <p><Link to="/discography" className="album__band" onClick={() => this.getDiscography(album.bandName)}>{album.bandName}</Link></p>
-                <p><Link to="/album" className="album__description" onClick={() => this.getAlbum(album.bandName, album.title)}>{album.title}</Link></p>
-                <p>{album.year}</p></li>))}</ul>
+        return (<StyledNewest>
+            <StyledNewestTitle>Newest Stoner Records</StyledNewestTitle>
+            <StyledNewestList> {this.state.baseSort.map(album => (<StyledNewestListItem key={album.title} >
+                <StyledNewestListItemImage src={album.image} width="200" height="200" alt={album.title} />
+                <StyledNewestListItemText>
+                    <LinkComponent httpTo="/discography" onClick={() => this.getDiscography(album.bandName)}>{album.bandName}</LinkComponent>
+                </StyledNewestListItemText>
+                <StyledNewestListItemText>
+                    <LinkComponent httpTo="/album" onClick={() => this.getAlbum(album.bandName, album.title)}>{album.title}</LinkComponent>
+                </StyledNewestListItemText>
+                <StyledNewestListItemText>{album.year}</StyledNewestListItemText>
+            </StyledNewestListItem>))}</StyledNewestList>
             <Pagination />
-        </div>
+        </StyledNewest>
         )
     }
 }

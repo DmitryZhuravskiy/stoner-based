@@ -2,7 +2,7 @@
         "id": 0,
         "title": "Bipolar",
         "bandName": "Void Droid",
-        "image": "./images/void-droid--bipolar.jpg",
+        "image": "https://1.bp.blogspot.com/-9VexUcQ6W9A/XrCuIcJ8SGI/AAAAAAAADFU/PybIkuc6CNUiRjJinzqyHFQ-h1SAJHvrwCLcBGAsYHQ/s1600/void%2Bdroid%2B-%2Bbipolar.png",
         "year": 2020,
         "country": "Greece",
         "tracklist": [{
@@ -82,7 +82,7 @@
         "id": 1,
         "title": "Terrestrial",
         "bandName": "Void Droid",
-        "image": "./images/void-droid--terrestrial.jpg",
+        "image": "https://avatars.yandex.net/get-music-content/34131/911e97b9.a.3801590-1/m1000x1000?webp=false",
         "year": 2016,
         "country": "Greece",
         "tracklist": [{
@@ -162,7 +162,7 @@
         "id": 2,
         "title": "Void Droid",
         "bandName": "Void Droid",
-        "image": "./images/void-droid--void-droid.jpg",
+        "image": "https://f4.bcbits.com/img/a0038733190_16.jpg",
         "year": 2013,
         "country": "Greece",
         "tracklist": [{
@@ -220,7 +220,7 @@
         "id": 3,
         "title": "Modern Panic",
         "bandName": "Deaf Radio",
-        "image": "./images/deaf-radio--modern-panic.jpg",
+        "image": "https://sun9-65.userapi.com/c853524/v853524222/16a6dc/ESjNBuBhJ54.jpg",
         "year": 2019,
         "country": "Greece",
         "tracklist": [{
@@ -300,7 +300,7 @@
         "id": 4,
         "title": "Alarm",
         "bandName": "Deaf Radio",
-        "image": "./images/deaf-radio--alarm.jpg",
+        "image": "https://avatars.yandex.net/get-music-content/139444/b8f3950d.a.4041593-1/m1000x1000?webp=false",
         "year": 2017,
         "country": "Greece",
         "tracklist": [{
@@ -384,7 +384,7 @@
         "id": 5,
         "title": "Reworked | Live at Mellowsophy",
         "bandName": "Deaf Radio",
-        "image": "./images/deaf-radio--reworked.jpg",
+        "image": "https://avatars.yandex.net/get-music-content/2359742/f6664850.a.12632806-1/m1000x1000?webp=false",
         "year": 2020,
         "country": "Greece",
         "tracklist": [{
@@ -439,7 +439,7 @@
         "id": 6,
         "title": "Can You Dig Europe 2020",
         "bandName": "The Neptune Power Federation",
-        "image": "./images/thpf--can-you-dig.jpg",
+        "image": "https://www.hrrshop.de/bilder/produkte/gross/THE-NEPTUNE-POWER-FEDERATION-Can-You-Dig-Europe-2020-D7.jpg",
         "year": 2020,
         "country": "Australia",
         "tracklist": [{
@@ -493,7 +493,7 @@
         "id": 7,
         "title": "Memoirs Of A Rat Queen",
         "bandName": "The Neptune Power Federation",
-        "image": "./images/thpf--memoirs.jpg",
+        "image": "https://townsquare.media/site/846/files/2019/12/a3530587935_10.jpg?w=1200&amp;h=0&amp;zc=1&amp;s=0&amp;a=t&amp;q=89",
         "year": 2019,
         "country": "Australia",
         "tracklist": [{
@@ -584,9 +584,9 @@
     },
     {
         "id": 8,
-        "title": "Neath A Shin Ei Sun ",
+        "title": "Neath A Shin Ei Sun",
         "bandName": "The Neptune Power Federation",
-        "image": "./images/thpf--neath-a-shin.jpg",
+        "image": "https://i.pinimg.com/736x/02/37/e7/0237e70b33cfa888432f49cba48f2b10.jpg",
         "year": 2017,
         "country": "Australia",
         "tracklist": [{
@@ -669,7 +669,7 @@
         "id": 9,
         "title": "Lucifer's Universe",
         "bandName": "The Neptune Power Federation",
-        "image": "./images/thpf--lucifer's-universe.jpg",
+        "image": "https://www.hrrshop.de/bilder/produkte/gross/THE-NEPTUNE-POWER-FEDERATION-Lucifers-Universe-LP-BLACK.jpg",
         "year": 2015,
         "country": "Australia",
         "tracklist": [{
@@ -760,9 +760,9 @@
     },
     {
         "id": 10,
-        "title": "Mano A Satano ",
+        "title": "Mano A Satano",
         "bandName": "The Neptune Power Federation",
-        "image": "./images/thpf--mano-a-satano.jpg",
+        "image": "https://i.scdn.co/image/ab67616d0000b273ee20cba0fde4d4729dbef124",
         "year": 2012,
         "country": "Australia",
         "tracklist": [{
@@ -851,7 +851,7 @@
         "id": 11,
         "title": "Flying Incendiary Club / I Put A Spell On You",
         "bandName": "The Neptune Power Federation",
-        "image": "./images/thpf--flying-incendiary-club.jpg",
+        "image": "https://img.discogs.com/OJdMkvFYYeXL-Bx5Hq-V_kdo69k=/600x389/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-3701643-1392984072-6547.jpeg.jpg",
         "year": 2019,
         "country": "Australia",
         "tracklist": [{
@@ -895,7 +895,7 @@
         "id": 12,
         "title": "Liquid Sleep",
         "bandName": "1000mods",
-        "image": "./images/1000--liquid-sleep.jpg",
+        "image": "https://s.mxmcdn.net/images-storage/albums/4/4/9/6/3/7/11736944_800_800.jpg",
         "year": 2009,
         "country": "Greece",
         "tracklist": [{
@@ -944,7 +944,7 @@
         "id": 13,
         "title": "Valley of Sand",
         "bandName": "1000mods",
-        "image": "./images/1000--valley-of-sand.jpg",
+        "image": "https://img.discogs.com/1ckDP5_HV_vclwB2bSTO34cCOtU=/fit-in/600x606/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8173401-1456520355-5843.jpeg.jpg",
         "year": 2012,
         "country": "Greece",
         "tracklist": [{
@@ -1003,7 +1003,7 @@
         "id": 14,
         "title": "Super Van Vacation",
         "bandName": "1000mods",
-        "image": "./images/1000--super-van-vacation.jpg",
+        "image": "https://thesodashop.files.wordpress.com/2011/09/1000mods-super-van-vacation-cover.jpg",
         "year": 2011,
         "country": "Greece",
         "tracklist": [{
@@ -1092,7 +1092,7 @@
         "id": 15,
         "title": "Vultures",
         "bandName": "1000mods",
-        "image": "./images/1000--vultures.jpg",
+        "image": "https://s3.tradingview.com/userpics/1288910-PzQA_orig.png",
         "year": 2014,
         "country": "Greece",
         "tracklist": [{
@@ -1171,7 +1171,7 @@
         "id": 16,
         "title": "Repeated exposure to​.​.​. ",
         "bandName": "1000mods",
-        "image": "./images/1000--repeated-exposure-to​.jpg",
+        "image": "https://f4.bcbits.com/img/a1012960243_10.jpg",
         "year": 2016,
         "country": "Greece",
         "tracklist": [{
@@ -1250,7 +1250,7 @@
         "id": 17,
         "title": "Youth of Dissent",
         "bandName": "1000mods",
-        "image": "./images/1000--youth-of-dissent.jpg",
+        "image": "https://f4.bcbits.com/img/a2178680370_5.jpg",
         "year": 2020,
         "country": "Greece",
         "tracklist": [{
@@ -1344,7 +1344,7 @@
         "id": 18,
         "title": "First Communion",
         "bandName": "Stoned Jesus",
-        "image": "./images/stoned-jesus--first-communion.jpg",
+        "image": "https://cdn41.zvuk.com/pic?type=release&id=8842415&size=600x600&ext=jpg",
         "year": 2010,
         "country": "Ukraine",
         "tracklist": [{
@@ -1395,7 +1395,7 @@
         "id": 19,
         "title": "Seven Thunders Roar",
         "bandName": "Stoned Jesus",
-        "image": "./images/stoned-jesus--seven-thunders-roar.jpg",
+        "image": "https://sun9-25.userapi.com/c302513/v302513701/48d6/rTUo7X90Od4.jpg",
         "year": 2011,
         "country": "Ukraine",
         "tracklist": [{
@@ -1455,7 +1455,7 @@
         "id": 20,
         "title": "The Harvest",
         "bandName": "Stoned Jesus",
-        "image": "./images/stoned-jesus--the-harvest.jpg",
+        "image": "https://avatars.yandex.net/get-music-content/49707/126396b8.a.2536531-1/m1000x1000?webp=false",
         "year": 2015,
         "country": "Ukraine",
         "tracklist": [{
@@ -1520,7 +1520,7 @@
         "id": 21,
         "title": "Pilgrims",
         "bandName": "Stoned Jesus",
-        "image": "./images/stoned-jesus--pilgrims.jpg",
+        "image": "https://www.ninehertz.co.uk/incoming/sjespil.jpg",
         "year": 2018,
         "country": "Ukraine",
         "tracklist": [{
@@ -1590,7 +1590,7 @@
         "id": 22,
         "title": "From the Outer Space",
         "bandName": "Stoned Jesus",
-        "image": "./images/stoned-jesus--from-the-outer-space.jpg",
+        "image": "https://vinyla.com/files/products/stoned-jesus-from-the-outer-space.800x800.jpg?f9af5fc7878db12eb642cf19a95c8acb",
         "year": 2019,
         "country": "Ukraine",
         "tracklist": [{
@@ -1650,7 +1650,7 @@
         "id": 23,
         "title": "Mars Red Sky",
         "bandName": "Mars Red Sky",
-        "image": "./images/mars-red-sky--mars-red-sky.jpg",
+        "image": "https://f4.bcbits.com/img/a3430473166_5.jpg",
         "year": 2011,
         "country": "France",
         "tracklist": [{
@@ -1720,7 +1720,7 @@
         "id": 24,
         "title": "Stranded in Arcadia",
         "bandName": "Mars Red Sky",
-        "image": "./images/mars-red-sky--stranded-in-arcadia.jpg",
+        "image": "https://ecsmedia.pl/c/stranded-in-arcadia-b-iext54548294.jpg",
         "year": 2014,
         "country": "France",
         "tracklist": [{
@@ -1791,7 +1791,7 @@
         "id": 25,
         "title": "APEX III ( Praise for the Burning Soul )",
         "bandName": "Mars Red Sky",
-        "image": "./images/mars-red-sky--apex-III.jpg",
+        "image": "https://www.musicrecords.cz/upload/catalogue/image/original/big/a14543204131104374366.jpg",
         "year": 2016,
         "country": "France",
         "tracklist": [{
@@ -1857,7 +1857,7 @@
         "id": 26,
         "title": "The Task Eternal",
         "bandName": "Mars Red Sky",
-        "image": "./images/mars-red-sky--the-task-eternal.jpg",
+        "image": "https://dark-rock.ru/uploads/posts/2019-09/1569582706_1400x1400.jpg",
         "year": 2019,
         "country": "France",
         "tracklist": [{
@@ -1928,7 +1928,7 @@
         "id": 27,
         "title": "Paisajes",
         "bandName": "Pájaro",
-        "image": "./images/pájaro--paisajes.jpg",
+        "image": "https://avatars.yandex.net/get-music-content/142001/e041d2e8.a.8816584-1/m1000x1000?webp=false",
         "year": 2019,
         "country": "Argentina",
         "tracklist": [{
@@ -1998,7 +1998,7 @@
         "id": 28,
         "title": "The Sea",
         "bandName": "Somali Yacht Club",
-        "image": "./images/syc--the-sea.jpg",
+        "image": "https://www.metal-tracker.com/torrents/images/2226140.jpg",
         "year": 2018,
         "country": "Ukraine",
         "tracklist": [{
@@ -2063,7 +2063,7 @@
         "id": 29,
         "title": "The Sun",
         "bandName": "Somali Yacht Club",
-        "image": "./images/syc--the-sun.jpg",
+        "image": "https://www.blackspin.gr/image/cache/catalog/product/5a1c2215ae6a3_2874_4311_somali-yacht-club-the-sun-600x600.jpg",
         "year": 2014,
         "country": "Ukraine",
         "tracklist": [{
@@ -2123,7 +2123,7 @@
         "id": 30,
         "title": "Red Giant To White Dwarf",
         "bandName": "Sweven",
-        "image": "./images/sweven--red-giant-to-white-dwarf.jpg",
+        "image": "https://www.metal-tracker.com/cache_images/details/2564450.jpg",
         "year": 2019,
         "country": "France",
         "tracklist": [{
