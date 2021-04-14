@@ -1,0 +1,4 @@
+export const GET_DISCOGRAPHY = "GET_DISCOGRAPHY";
+export const GET_ALBUM = "GET_ALBUM";
+export const CHANGE_PAGE = "CHANGE_PAGE";
+export const CHANGE_ALBUMS_PER_PAGE = "CHANGE_ALBUMS_PER_PAGE";

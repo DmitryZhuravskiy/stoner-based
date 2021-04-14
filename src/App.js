@@ -1,41 +1,36 @@
 import './App.css';
-import React, { Component } from 'react';
+import React from 'react';
 import {
   Route,
-  Switch,
-  Link
+  Switch
 } from "react-router-dom";
-import AlbumContainer from "./containers/AlbumContainer";
-import DiscographyContainer from "./containers/DiscographyContainer";
-import NewestReleaseContainer from "./containers/NewestReleaseContainer";
+import AlbumContainer from "./components/AlbumContainer";
+import DiscographyContainer from "./components/DiscographyContainer";
+import NewestReleaseContainer from "./components/NewestReleaseContainer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import {
+  BrowserRouter
+} from "react-router-dom";
+import { Provider } from 'react-redux';
+import store from "./redux/store";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="app-container">
-        <h1 className="title-message">Stoner Base</h1>
-        <div className="navigation">
-          <ul>
-            <li>
-              <Link to="/discography">Дискография Void Droid</Link>
-            </li>
-            <li>
-              <Link to="/album">Альбом Void Droid - Bipolar</Link>
-            </li>
-            <li>
-              <Link to="/">Все, что есть</Link>
-            </li>
-          </ul>
+function App() {
+  return (
+      <Provider store={store}>
+      <BrowserRouter>
+        <div className="app-container">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={NewestReleaseContainer} />
+            <Route path="/album" component={AlbumContainer} />
+            <Route path="/discography" component={DiscographyContainer} />
+          </Switch>
+          <Footer />
         </div>
-        <Switch>
-          <Route exact path="/" component={NewestReleaseContainer} />
-          <Route path="/album" component={AlbumContainer} />
-          <Route path="/discography" component={DiscographyContainer} />
-        </Switch>
-        <div className="footer" />
-      </div>
-    );
-  }
+        </BrowserRouter>
+      </Provider>
+  );
 }
 
 export default App;
