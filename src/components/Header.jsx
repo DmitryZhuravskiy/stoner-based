@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { connect } from 'react-redux';
 
-function Header({ bandName, album }) {
+const Header = ({ bandName, album }) =>  {
     return (
         <div className="header" >
             <h1 className="title-message">Stoner Base</h1>
@@ -15,13 +14,4 @@ function Header({ bandName, album }) {
     )
 }
 
-const mapStateToProps = (state) => {
-    return {
-        bandName: state.stoner.bandName,
-        album: state.stoner.album,
-    }
-}
-
-export default connect(
-    mapStateToProps
-)(Header);
+export default Header;
