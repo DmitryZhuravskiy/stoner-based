@@ -53,9 +53,9 @@ const NewestReleaseContainer = () => {
           </li>
         ))}
       </ul>
+      <Pagination />
     </div>
   );
 };
 
 export default NewestReleaseContainer;
-//<Pagination />

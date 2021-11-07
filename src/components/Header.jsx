@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-const Header = ({ bandName, album }) =>  {
+const Header = () =>  {
     return (
         <div className="header" >
             <h1 className="title-message">Stoner Base</h1>
