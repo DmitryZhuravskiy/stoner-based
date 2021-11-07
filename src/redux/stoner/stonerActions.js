@@ -20,10 +20,10 @@ export const getAlbum = (bandName, album) => {
   };
 };
 
-export const changePage = (activePage) => {
+export const changePage = (data) => {
   return {
     type: CHANGE_PAGE,
-    activePage: activePage,
+    activePage: data,
   };
 };
 

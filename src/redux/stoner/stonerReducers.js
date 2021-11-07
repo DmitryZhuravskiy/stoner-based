@@ -10,7 +10,7 @@ import base from './../../base.json';
 const initialState = {
   bandName: "Void Droid",
   album: "Bipolar",
-  albumsPerPage: 5,
+  albumsPerPage: 20,
   activePage: 1,
   firstAlbumId: 1,
   lastALbumId: 5,
