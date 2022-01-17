@@ -1,6 +1,6 @@
 <h1><b>Stoner-Based</b></h1>
 
-Presentation - https://dmitryzhuravskiy.github.io/stoner-based/ ;
+Presentation - https://dmitryzhuravskiy.github.io/stoner-based/ 
 <br /><br />
 
 <h2><b>Startup Guide</b></h2>
