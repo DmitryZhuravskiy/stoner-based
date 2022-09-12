@@ -1,21 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { getDiscography } from "../redux";
+import { getDiscography } from "../redux/slices/stonerSlice";
 import { useSelector, useDispatch } from "react-redux";
+import {TrackProps, ArtistProps, ReviewProps } from '../redux/slices/stonerSlice'
+
+type FilterProps = {
+  bandName: string;
+  title: string;
+};
+
+/*
+type TrackProps = {
+  id: string;
+  trackName: string;
+  duration: string;
+};
+
+type ArtistProps = {
+  name: string;
+  role: string;
+};
+
+type ReviewProps = {
+  author: string;
+  text: string;
+};
+*/
 
 const AlbumContainer = () => {
   const dispatch = useDispatch();
-  const bandName = useSelector((state) => state.stoner.bandName);
-  const based = useSelector((state) => state.stoner.based);
-  const album = useSelector((state) => state.stoner.album);
-  //const base = based.filter((x) => x.bandName === bandName);
+  const { album, based, bandName } = useSelector((state: any) => state.stoner);
+
   const base = based
-    .filter((x) => x.bandName === bandName)
-    .filter((x) => x.title === album);
+    .filter((x: FilterProps) => x.bandName === bandName)
+    .filter((x: FilterProps) => x.title === album);
   const { title, group, image, year, country, tracklist, artists, reviews } =
     base[0];
 
-  const dispatchDisco = (bandName) => {
+  const dispatchDisco = (bandName: string) => {
     dispatch(getDiscography(bandName));
   };
 
@@ -42,7 +64,7 @@ const AlbumContainer = () => {
         <div className="album__tracklist">
           <p className="tracklist__title">Tracklist</p>
           <ul>
-            {tracklist.map((track) => (
+            {tracklist.map((track: TrackProps) => (
               <li key={track.id}>
                 {track.id} - {track.trackName} - {track.duration}
               </li>
@@ -50,7 +72,7 @@ const AlbumContainer = () => {
           </ul>
           <p className="artist__title">Artists</p>
           <ul>
-            {artists.map((artist) => (
+            {artists.map((artist: ArtistProps) => (
               <li key={artist.name} className="artist__item">
                 {artist.name} - {artist.role}
               </li>
@@ -60,7 +82,7 @@ const AlbumContainer = () => {
       </div>
       <p className="album__reviews-title">Reviews</p>
       <ul>
-        {reviews.map((review) => (
+        {reviews.map((review: ReviewProps) => (
           <li key={review.author} className="review">
             <h4 className="review__title">{review.author}</h4>
             <p className="review__text">{review.text}</p>
