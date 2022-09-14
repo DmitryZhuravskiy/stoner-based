@@ -3,4 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render( <App />, document.getElementById('root'));
+const rootElem = document.getElementById('root');
+
+if (rootElem) {
+  const root = ReactDOM.createRoot(rootElem);
+
+  root.render(
+        <App />
+  );
+}

@@ -1,25 +1,33 @@
-import React from "react";
-import based from './../base.json';
-import { changePage, changeAlbumsPerPage } from "../redux";
+import React , {useEffect } from "react";
+import {
+  changePage, changeAlbumsPerPage 
+} from "../redux/slices/stonerSlice";
+
 import { useSelector, useDispatch } from "react-redux";
 
 const Pagination = () => {
   const dispatch = useDispatch();
-  const activePage = useSelector((state) => state.stoner.activePage);
-  const albumsPerPage = useSelector((state) => state.stoner.albumsPerPage);
+  const { based, firstAlbumId, lastAlbumId, albumsPerPage, activePage } = useSelector(
+    (state: any) => state.stoner
+  );
+  const pageNumbers: number[] = [];
 
-  const dispatchChangePage = (payload) => {
+  const dispatchChangePage = (payload: number) => {
     dispatch(changePage(payload));
   };
 
-  const dispatchAlbumsPerPage = (payload) => {
+  const dispatchAlbumsPerPage = (payload: number) => {
     dispatch(changeAlbumsPerPage(payload));
   };
 
-  const pageNumbers = [];
-  for (let i = 1; i <= Math.ceil(based.length / albumsPerPage); i++) {
-    pageNumbers.push(i);
-  }
+  useEffect(() => {
+    for (let i = 1; i <= Math.ceil(based.length / albumsPerPage); i++) {
+      pageNumbers.push(i);
+    }
+    console.log(pageNumbers)
+
+  }, [albumsPerPage, activePage])
+  
   return (
     <div className="pagination-container">
       <div className="pagination__pages">

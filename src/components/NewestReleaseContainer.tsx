@@ -1,34 +1,45 @@
 import { Link } from "react-router-dom";
-import { getAlbum, getDiscography } from "../redux";
-import React from "react";
+import {
+  getAlbum,
+  getDiscography,
+  fetchData,
+} from "../redux/slices/stonerSlice";
+import { useEffect } from "react";
 import Pagination from "./Pagination";
 import { useSelector, useDispatch } from "react-redux";
 
+type AlbumProps = {
+  title: string;
+  image: string;
+  year: number;
+  bandName: string;
+};
+
 const NewestReleaseContainer = () => {
   const dispatch = useDispatch();
-  const albumsPerPage = useSelector((state) => state.stoner.albumsPerPage);
-  const activePage = useSelector((state) => state.stoner.activePage);
-  const based = useSelector((state) => state.stoner.based);
-  const lastAlbumId = albumsPerPage * activePage;
-  const firstAlbumId = lastAlbumId - albumsPerPage;
-  const baseSort = based
-    .sort((a, b) => b.year - a.year)
-    .slice(firstAlbumId, lastAlbumId);
+  const { based, firstAlbumId, lastAlbumId } = useSelector(
+    (state: any) => state.stoner
+  );
 
-  const dispatchDisco = (bandName) => {
+  const dispatchDisco = (bandName: string) => {
     dispatch(getDiscography(bandName));
   };
 
-  const dispatchAlbum = (bandName, album) => {
-    dispatch(getAlbum(bandName, album));
+  const dispatchAlbum = (album: string) => {
+    dispatch(getAlbum(album));
   };
+
+  useEffect(() => {
+    // @ts-ignore
+    dispatch(fetchData());
+  }, [lastAlbumId, firstAlbumId]);
 
   return (
     <div className="newest">
       <h3 className="newest__title">Newest Stoner Records </h3>
       <ul>
         {" "}
-        {baseSort.map((album) => (
+        {based.map((album: AlbumProps) => (
           <li key={album.title}>
             <img src={album.image} width="200" height="200" alt={album.title} />
             <p>
@@ -44,7 +55,7 @@ const NewestReleaseContainer = () => {
               <Link
                 to="/album"
                 className="album__description"
-                onClick={() => dispatchAlbum(album.bandName, album.title)}
+                onClick={() => dispatchAlbum(album.title)}
               >
                 {album.title}
               </Link>

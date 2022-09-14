@@ -1,6 +1,6 @@
 <h1><b>Stoner-Based</b></h1>
 
-Презентационная версия - https://dmitryzhuravskiy.github.io/stoner-based/ ;
+Презентационная версия - https://dmitryzhuravskiy.github.io/stoner-based/
 <br /><br />
 
 <h2><b>Руководство по запуску</b></h2>
@@ -20,24 +20,3 @@
 
 Для удобства в header сделал возвращение на главную через "Main Page", а в footer указал некоторые свои контакты. Проект учебный, вместо backend файлик base.json, из которого и берется вся информация для отображения. Вбивал сам, при deploy на github pages пришлось переделывать ссылки на картинки с расположенных в проекте на изображения из открытого доступа.<br />
 В проекте использованы технологии react, react-router-dom и react-redux.
-
-
-<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--1.jpg "/>
-<b>Страница подборки альбомов</b>
-<br /><br /><br /><br /><br />
-
-<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--2.jpg "/>
-<b>... её продолжение</b>
-<br /><br /><br /><br /><br />
-
-<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--3.jpg "/>
-<b>Страница дискографии выбранного артиста</b>
-<br /><br /><br /><br /><br />
-
-<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--4.jpg "/>
-<b>Страница информации по выбранному альбому</b>
-<br /><br /><br /><br /><br />
-
-<img src="https://github.com/DmitryZhuravskiy/stoner-based/raw/main/public/images/stoner-based--5.jpg "/>
-<b>... её окончание</b>
-<br />

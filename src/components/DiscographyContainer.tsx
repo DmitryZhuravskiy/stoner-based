@@ -1,16 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { getAlbum } from "../redux";
+import {
+  getAlbum
+} from "../redux/slices/stonerSlice";
 import { useSelector, useDispatch } from "react-redux";
+
+type AlbumProps = {
+  title: string,
+  image: string,
+  year: number,
+  bandName: string,
+}
 
 const DiscographyContainer = () => {
   const dispatch = useDispatch();
-  const bandName = useSelector((state) => state.stoner.bandName);
-  const based = useSelector((state) => state.stoner.based);
-  const base = based.filter((x) => x.bandName === bandName);
+  const { based, bandName } = useSelector((state: any) => state.stoner);
 
-  const dispatchAlbum = (bandName, title) => {
-    dispatch(getAlbum(bandName, title));
+  const base = based.filter((x: AlbumProps) => x.bandName === bandName);
+
+  const dispatchAlbum = (title: string) => {
+    dispatch(getAlbum(title));
   };
 
   return (
@@ -18,15 +27,15 @@ const DiscographyContainer = () => {
       <h2 className="discography__title">Discography of {bandName}</h2>
       <ul>
         {base
-          .sort((a, b) => b.year - a.year)
-          .map((album) => (
+          .sort((a: AlbumProps, b: AlbumProps) => b.year - a.year)
+          .map((album: AlbumProps) => (
             <li key={album.title} className="discography__album">
               <img src={album.image} alt={album.title} />
               <p className="discography__album-title">
                 <Link
                   to="/album"
                   className="discography__album-title-link"
-                  onClick={() => dispatchAlbum(bandName, album.title)}
+                  onClick={() => dispatchAlbum(album.title)}
                 >
                   {album.title}
                 </Link>
